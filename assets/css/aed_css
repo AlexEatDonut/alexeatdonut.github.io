@@ -270,7 +270,7 @@ h5 {
         height: 40vh;
     }
     .section-bg-image {
-        background-image: url(./../img/red-bg.png);
+        background-image: url(./red-bg.png);
     }
         /* SECTION : TEXT IN THE MIDDLE W/ IMAGE IN THE BG */
         .section-texts{
