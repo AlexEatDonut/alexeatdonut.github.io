@@ -14,3 +14,13 @@ A dedicated website will be made for this once it's going to be getting some rea
 - Footers
 - Form controls
 - Flexible columns
+
+# Do you really wish to use it ?
+
+For now I don't know why you'd use it for realsies on any projects. If you wish to figure stuff out yourself goodluck.
+
+The links are :
+
+<link href="https://alexeatdonut.github.io/assets/css/aed_css.css" rel="stylesheet" crossorigin="anonymous" type="text/css">
+<link href="https://alexeatdonut.github.io/assets/css/desktop_css.css" media="(min-width: 580px)" rel="stylesheet" crossorigin="anonymous" type="text/css"/>
+<link href="https://alexeatdonut.github.io/assets/css/mobile_css.css" media="(max-width: 580px)" rel="stylesheet" crossorigin="anonymous" type="text/css"/>
