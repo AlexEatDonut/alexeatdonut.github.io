@@ -14,6 +14,7 @@ A dedicated website will be made for this once it's going to be getting some rea
 - Footers
 - Form controls
 - Flexible columns
+- Custom Icons
 
 # Do you really wish to use it ?
 
