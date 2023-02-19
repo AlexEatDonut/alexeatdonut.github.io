@@ -11,6 +11,7 @@ A dedicated website will be made for this once it's going to be getting some rea
 # CURRENT TO DOS :
 
 - More header flexibility
+- Non-neon color options
 - Footers
 - Form controls
 - Flexible columns
