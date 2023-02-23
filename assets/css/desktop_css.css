@@ -4,8 +4,7 @@
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 * {
-  font-family: "Varela Round", sans-serif;
-  font-size: 3vw;
+
 }
 
 p,
@@ -16,9 +15,33 @@ h4,
 h5,
 li,
 i,
-.txt-normal {
-  font-size: 0.6rem;
-  margin: 0.5vw 0.2vw;
+.txt-m {
+  font-size: 1rem;
+  margin: 0.5vw;
+}
+.txt-s {
+  font-size: 0.9rem;
+  margin: 0.5vw;
+}
+.txt-xs {
+  font-size: 0.8rem;
+  margin: 0.5vw;
+}
+.txt-xxs {
+  font-size: 0.7rem;
+  margin: 0.5vw;
+}
+.txt-l {
+  font-size: 1.2rem;
+  margin: 0.5vw;
+}
+.txt-xl {
+  font-size: 1.4rem;
+  margin: 0.6vw;
+}
+.txt-xxl {
+  font-size: 1.6rem;
+  margin: 0.6vw;
 }
 
 a {
@@ -33,24 +56,24 @@ a {
 }
 
 .title-xl {
-  font-size: 1rem;
+  font-size: 3rem;
   margin: 0.8vw;
 }
 .title-l {
-  font-size: 0.9rem;
+  font-size: 2.6rem;
   margin: 0.8vw;
 }
 .title-m {
-  font-size: 0.8rem;
+  font-size: 2.4rem;
   margin: 0.7vw;
 }
 .title-s {
-  font-size: 0.75rem;
+  font-size: 2.2rem;
   color: var(--text-grey);
   margin: 0.7vw;
 }
 .title-xs {
-  font-size: 0.7rem;
+  font-size: 1.8rem;
   color: var(--text-grey);
   margin: 0.7vw;
 }
@@ -59,14 +82,6 @@ br {
   height: 0.2vh;
 }
 
-.txt-xs {
-  font-size: 0.4rem;
-  margin: 0.5vw;
-}
-.txt-xxs {
-  font-size: 0.3rem;
-  margin: 0.5vw;
-}
 
 .txt-start {
   text-align: start;
@@ -163,7 +178,7 @@ header {
   align-items: center;
 }
 .header-aio .header-link .header-link-choice * {
-  font-size: 0.5rem;
+  font-size: 2rem;
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -229,10 +244,9 @@ section {
   height: 70vh;
 }
 /* .section-title {
-        } */
+        } 
 .section-subtitle {
-  font-size: 0.4rem;
-}
+}*/
 .section-downArrow {
   height: 15vh;
   animation-name: upAndDown;
