@@ -1,3 +1,7 @@
+# Current version :
+
+Alpha 0.0.1.0
+
 # Personal CSS framework
 
 So uhh
@@ -10,6 +14,8 @@ A dedicated website will be made for this once it's going to be getting some rea
 
 # CURRENT TO DOS :
 
+- Fix the previous em being not 16px 
+- Finish gridded listing
 - More header flexibility
 - Non-neon color options
 - Footers
@@ -17,9 +23,10 @@ A dedicated website will be made for this once it's going to be getting some rea
 - Flexible columns
 - Custom Icons
 
-# Do you really wish to use it ?
+# Do you REALLY wish to use it ?
 
 For now I don't know why you'd use it for realsies on any projects. If you wish to figure stuff out yourself goodluck.
+JS missing.
 
 The links are :
 
