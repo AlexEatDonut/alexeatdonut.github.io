@@ -4,14 +4,14 @@ window.addEventListener("DOMContentLoaded", function () {
   if (screenWidth > 512) {
     function scrollFunction() {
       if (window.scrollY > 150) {
-        document.querySelector(".header-tall").classList.add("header-small");
+        document.querySelector(".h__tall").classList.add("h__small");
       } else {
-        document.querySelector(".header-tall").classList.remove("header-small");
+        document.querySelector(".h__tall").classList.remove("h__small");
       }
     }
   }
 
-  let burger_menu = this.document.querySelector(".header-burger");
+  let burger_menu = document.querySelector(".hAio__burger");
 
   const github_link = "https://github.com/AlexEatDonut";
   const twitter_link = "https://twitter.com/AlexEatDonut";
@@ -51,11 +51,11 @@ window.addEventListener("DOMContentLoaded", function () {
 
   function testMenu() {
     if (isMenuOn == false) {
-      document.querySelector(".header-aio-menu").classList.add("menu-visible");
+      document.querySelector(".hAio__menu").classList.add("menu-visible");
       isMenuOn = true;
     } else {
       document
-        .querySelector(".header-aio-menu")
+        .querySelector(".hAio__menu")
         .classList.remove("menu-visible");
       isMenuOn = false;
     }
@@ -65,7 +65,7 @@ window.addEventListener("DOMContentLoaded", function () {
     testMenu();
   });
   document
-    .querySelectorAll(".header-aio-menu .header-nav-choice")
+    .querySelectorAll(".hAio__menu .hAio__nav--choice")
     .forEach((item) =>
       item.addEventListener("click", function (ev) {
         testMenu();
