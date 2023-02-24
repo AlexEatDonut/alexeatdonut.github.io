@@ -11,41 +11,36 @@ window.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  let burger_menu = document.querySelector(".hAio__burger");
-
-  const github_link = "https://github.com/AlexEatDonut";
-  const twitter_link = "https://twitter.com/AlexEatDonut";
-  const youtube_link = "https://www.youtube.com/@AlexEatDonut";
-  const map_link = "https://tf2maps.net/members/alexeatdonut.29391/#resources";
+  let burger_menu = document.querySelectorAll("#hAio__burger");
 
   window.addEventListener("scroll", scrollFunction);
 
-  const section_gallery = document.querySelector(".section-gallery");
-  let box_container = document.querySelector(".box-full");
-  let box_inner = document.querySelector(".box-inner");
-  let box_bg = document.querySelector(".box-bg");
+  // const section_gallery = document.querySelector(".section-gallery");
+  // let box_container = document.querySelector(".box-full");
+  // let box_inner = document.querySelector(".box-inner");
+  // let box_bg = document.querySelector(".box-bg");
 
-  section_gallery.addEventListener("click", function (ev) {
-    // console.log(ev.target);
+  // section_gallery.addEventListener("click", function (ev) {
+  //   // console.log(ev.target);
 
-    let box_image = document.querySelector("#box-image");
-    box_container.classList.remove("d-none");
-    box_container.classList.add("flex-row");
+  //   let box_image = document.querySelector("#box-image");
+  //   box_container.classList.remove("d-none");
+  //   box_container.classList.add("flex-row");
 
-    let index_img = ev.target.getAttribute("index");
-    console.log(index_img);
-    index_img_nb = parseInt(index_img);
+  //   let index_img = ev.target.getAttribute("index");
+  //   console.log(index_img);
+  //   index_img_nb = parseInt(index_img);
 
-    let map_object = map_gallery.find((item) => item.index == index_img_nb);
-    let map_name = map_object.mapname;
-    let map_desc = map_object.mapdesc;
+  //   let map_object = map_gallery.find((item) => item.index == index_img_nb);
+  //   let map_name = map_object.mapname;
+  //   let map_desc = map_object.mapdesc;
 
-    // console.log("ev target = "+ev.target+" et sa source est "+ev.target.src+", son index est "+index_img_nb+", son title est "+map_name+" et sa description est "+map_desc);
-    document.querySelector("#box-image-title").innerHTML = map_name;
-    document.querySelector("#box-image-description").innerHTML = map_desc;
+  //   // console.log("ev target = "+ev.target+" et sa source est "+ev.target.src+", son index est "+index_img_nb+", son title est "+map_name+" et sa description est "+map_desc);
+  //   document.querySelector("#box-image-title").innerHTML = map_name;
+  //   document.querySelector("#box-image-description").innerHTML = map_desc;
 
-    box_image.src = ev.target.src;
-  });
+  //   box_image.src = ev.target.src;
+  // });
 
   let isMenuOn = false;
 
@@ -61,13 +56,15 @@ window.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  burger_menu.addEventListener("click", function (ev) {
-    testMenu();
+  burger_menu.forEach(burger => {
+    burger.addEventListener("click", function () {
+      testMenu();
+    })
   });
-  document
-    .querySelectorAll(".hAio__menu .hAio__nav--choice")
+
+  document.querySelectorAll(".hAio__menu .hAio__nav--choice")
     .forEach((item) =>
-      item.addEventListener("click", function (ev) {
+      item.addEventListener("click", function () {
         testMenu();
       })
     );
