@@ -114,21 +114,22 @@ button p {
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* BOXES */
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
 * {
   box-sizing: border-box;
   margin: 0px;
   overflow-x: hidden;
 }
+
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* HEADERS */
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 header {
   width: 100vw;
 }
+
 /* //////////////////////////////////////////////////// */
 /* HEADER : aio */
-.header-aio {
+.hAio {
   height: 25vw;
   max-height: 100%;
   width: 100%;
@@ -136,35 +137,35 @@ header {
   grid-template-columns: 25vw 1fr 15vw;
   grid-template-rows: 1fr;
 }
-.header-aio .header-logo {
+.hAio__logo {
   width: 25vw;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header-aio .header-logo .header-logo-img {
+.hAio__logo--img {
   max-width: 25vw;
   max-height: 100%;
 }
-.header-aio .header-title {
+.hAio__title {
   height: 100%;
   width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header-aio .header-title * {
+.hAio__title * {
   text-align: center;
 }
-.header-aio .header-nav {
+.hAio__nav {
   display: none;
 }
-.header-aio .header-link {
+.hAio__link {
   display: none;
 }
 
-.header-aio-menu {
+.hAio__menu {
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -176,25 +177,25 @@ header {
   border-left: 2px solid var(--color-red);
   z-index: 400;
 }
-.header-tall,
-.header-filler {
+.h__tall,
+.h__filler {
   height: 10vh !important;
 }
 
-.header-aio-menu .header-link {
+.hAio__menu .hAio__link {
   width: 100%;
-  height: 30vh;
+  height: 100%;
   padding: 1vw;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
 }
-.header-aio-menu .header-link .header-link-choice {
+.hAio__menu .hAio__link--choice {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header-aio-menu .header-link .header-link-choice * {
+.hAio__menu .hAio__link--choice * {
   font-size: 2rem;
   width: 100%;
   height: 100%;
@@ -202,7 +203,7 @@ header {
   text-align: center;
 }
 
-.header-burger {
+.hAio__burger {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -212,7 +213,6 @@ header {
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* SECTIONS */
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
 section {
   width: 100%;
   display: flex;

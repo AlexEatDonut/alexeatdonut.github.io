@@ -2,27 +2,27 @@ html {
   scroll-behavior: smooth;
 }
 
-.header-aio {
+.hAio {
   position: fixed;
   z-index: 500;
   border: 0 0 2px 0 solid var(--color-purple);
   box-shadow: 0 3px 20px 2px var(--color-purple);
 }
-.header-tall,
-.header-filler {
+.h__tall,
+.h__filler {
   height: 20vh;
   transition: 0.25s;
 }
-.header-small {
+.h__small {
   height: 12vh !important;
 }
 
-.header-aio .header-link .header-link-choice * {
+.hAio__link--choice .header-link .header-link-choice * {
   transition: 0.2s;
 }
 
-.header-small .header-link .header-link-choice * {
-  font-size: 0.3rem !important;
+.header-small .hAio__link--choice * {
+  font-size: 0.8rem !important;
   line-height: 2 !important;
 }
 
