@@ -1,3 +1,8 @@
+const github_link = "https://github.com/AlexEatDonut";
+const twitter_link = "https://twitter.com/AlexEatDonut";
+const youtube_link = "https://www.youtube.com/@AlexEatDonut";
+const map_link = "https://tf2maps.net/members/alexeatdonut.29391/#resources";
+
 let link_github = document.querySelectorAll(".link-github");
 
 link_github.forEach((aTag) => {
