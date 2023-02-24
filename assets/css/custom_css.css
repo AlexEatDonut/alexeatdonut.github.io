@@ -103,13 +103,13 @@ html {
   }
 
   /* Burger menu on mobile */
-  .header-aio-menu {
+  .hAio__menu {
   }
-  .header-aio-menu a {
+  .hAio__menu a {
     padding: 2vh 0px;
     display: inline-block;
   }
-  .header-aio-menu > * {
+  .hAio__menu > * {
   }
 
   .menu-visible {
