@@ -6,7 +6,6 @@ Adjusted sections :
 - gallery
 - description
 - display
-- 
 
 # Alpha 0.0.2.1
 Hotfix fix
