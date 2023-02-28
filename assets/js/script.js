@@ -15,12 +15,12 @@ window.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener("scroll", scrollFunction);
 
-  // const section_gallery = document.querySelector(".section-gallery");
+  // const s__display = document.querySelector(".s__display");
   // let box_container = document.querySelector(".box-full");
   // let box_inner = document.querySelector(".box-inner");
   // let box_bg = document.querySelector(".box-bg");
 
-  // section_gallery.addEventListener("click", function (ev) {
+  // s__display.addEventListener("click", function (ev) {
   //   // console.log(ev.target);
 
   //   let box_image = document.querySelector("#box-image");
