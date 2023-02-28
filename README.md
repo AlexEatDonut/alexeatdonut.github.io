@@ -1,6 +1,6 @@
 # Current version :
 
-Alpha 0.0.2.1
+Alpha 0.0.3.0
 
 # Personal CSS framework
 

@@ -1,3 +1,13 @@
+# Alpha 0.0.3.0
+Adjusted sections :
+- background
+- text
+- bio
+- gallery
+- description
+- display
+- 
+
 # Alpha 0.0.2.1
 Hotfix fix
 
