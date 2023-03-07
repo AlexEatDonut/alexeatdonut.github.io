@@ -1,11 +1,10 @@
-# Alpha 0.0.3.0
+# Alpha 0.0.4.0
 Adjusted sections :
-- background
-- text
-- bio
-- gallery
-- description
-- display
+- full display
+- footer aio
+Fixed icons not working in the haio
+Renamed test.html to cccss.html
+Added form control items to cccss.html for later changes
 
 # Alpha 0.0.2.1
 Hotfix fix
