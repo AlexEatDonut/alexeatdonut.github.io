@@ -1,3 +1,7 @@
+# Alpha 0.0.4.1
+Adjusted mobile use so that it is usable.
+Adjusted proportions of bio in mobile use.
+
 # Alpha 0.0.4.0
 Adjusted sections :
 - full display
