@@ -108,7 +108,7 @@ button {
   padding: 1vw;
 }
 button p {
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -220,25 +220,25 @@ section {
   justify-content: center;
   align-items: center;
 }
-.section-height-full {
+.s__height--full {
   min-height: 100vh;
 }
-.section-height-xl {
+.s__height--xl {
   min-height: 92vh;
 }
-.section-height-l {
+.s__height--l {
   min-height: 86vh;
 }
-.section-height-m {
+.s__height--m {
   min-height: 75vh;
 }
-.section-height-s {
+.s__height--s {
   min-height: 64vh;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* BG IMAGE */
-.section-bg-image {
+.s__bg--image {
   /* MAKE IT AN IMAGE */
   /* background-image: url(./test-bg.png); */
 
@@ -258,18 +258,18 @@ section {
 
 /* //////////////////////////////////////////////////// */
 /* SECTION : TEXT IN THE MIDDLE W/ IMAGE IN THE BG */
-.section-bgTexts {
+.s__bg--text {
   color: var(--text-white);
   text-align: center;
   height: 70vh;
 }
-.section-title {
-  font-size: 1.3rem;
+.s__bg--text--title {
+  font-size: 1.6rem;
 }
-.section-subtitle {
-  font-size: 0.6rem;
+.s__bg--text--subtitle {
+  font-size: 01rem;
 }
-.section-downArrow {
+.s__bg--arrow {
   text-shadow: var(--outline-black);
   height: 20vh;
   animation-name: upAndDown;
@@ -280,78 +280,76 @@ section {
 .section-downArrow * {
   height: 100%;
 }
-.section-downArrow i {
+.s__bg--arrow i {
   font-size: 2rem;
 }
 
 /* //////////////////////////////////////////////////// */
 /* SECTION : text */
-.section-text {
+.s__text {
 }
-.section-text-content {
+.s__text--content {
   width: 85%;
   margin: 6vh 0px;
 }
-.section-text p {
+.s__text--content--text{
   margin: 2vh 0px;
 }
 
 /* //////////////////////////////////////////////////// */
-/* Bio */
-.section-bio {
+
+/* Biography */
+.s__bio {
   padding: 5vw;
   display: grid;
   grid-template-columns: 1fr;
 }
-.section-bio .title-m {
-  text-align: center;
-}
-.section-bio .grid-item {
+.s__bio--main,
+.s__bio--side {
+  min-height: 30vh;
+  border-radius: 2vh;
   margin: 5vw;
   padding: 2vh;
 }
-.section-bio-main,
-.section-bio-side {
-  min-height: 30vh;
-  border-radius: 2vh;
-}
-.section-bio-main {
+.s__bio--main {
   grid-column: 1 / 3;
   display: flex;
   flex-direction: column;
 }
-.section-bio-main div {
+.s__bio--main--text {
+  width: 60%;
 }
-.section-bio-side {
+.s__bio--side--email {
+  font-size: 1.4vw;
+}
+.s__bio--main--img {
+  width: 30%;
+  border-radius: 50vh;
 }
 
-.section-bio .bio-img {
-  height: 14vh;
-  border-radius: 100%;
-}
 
 /* //////////////////////////////////////////////////// */
 /* SECTION : images in a grid */
 
-.section-gallery {
+.s__gallery {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: 1fr;
   gap: 0px;
 }
-.section-gallery a {
+.s__gallery--item {
   display: inline-block;
   height: 25vh;
   width: 100%;
   overflow: hidden;
   position: relative;
 }
-.section-gallery .gallery-image {
+.s__gallery--item--image {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
-.section-gallery .gallery-text {
+.s__gallery--item--text {
   position: absolute;
   z-index: 200;
   bottom: 15%;
@@ -359,16 +357,16 @@ section {
 }
 
 /* //////////////////////////////////////////////////// */
-/* SECTION : CORPORATE DESCRIPTIONS */
-.section-desc {
+/* SECTION : DESCRIPTIONS */
+.s__desc {
   padding: 4vw 2vw;
 }
-.section-desc-content {
+.s__desc--content {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
-.section-desc .section-description {
+.s__desc--content--description {
   width: 94vw;
   padding: 0 2vw;
   display: flex;
@@ -379,38 +377,8 @@ section {
 }
 
 /* //////////////////////////////////////////////////// */
-/* SECTION : Social media */
-.section-socials {
-  min-height: 50%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.section-socials .section-socials-title {
-  text-align: center;
-  width: 50%;
-  padding: 2vh 0;
-}
-.section-socials .section-socials-links {
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1vw 0;
-}
-.section-socials .section-socials-links * {
-  max-height: 100%;
-  font-size: 1.5rem;
-  padding: 0.2vh;
-}
-.section-socials .section-socials-links i {
-  max-height: 100%;
-}
-
-/* //////////////////////////////////////////////////// */
 /* SECTION : display (text with an image) */
-.section-display {
+.s__display {
   /*  you want as many displays as you want => no max height */
   width: 100%;
   flex-direction: column;
@@ -418,7 +386,7 @@ section {
   height: 100%;
   padding: 3vh 5vw;
 }
-.section-display-item-first {
+.s__display--itemFirst {
   padding: 1.5vw 1.5vw;
   width: 90vw;
   min-height: 30vw;
@@ -427,7 +395,7 @@ section {
   grid-template-rows: 2fr 1fr;
   margin: 5vh 0px;
 }
-.section-display-item-second {
+.s__display--itemSecond {
   padding: 1.5vw 1.5vw;
   width: 90vw;
   min-height: 30vw;
@@ -436,60 +404,85 @@ section {
   grid-template-rows: 1fr 2fr;
   margin: 5vh 0px;
 }
-.section-display-item-text {
+.s__display--item--text {
   margin: 0px;
   text-align: center;
 }
-.section-display-item-text button {
+.s__display--item--text button {
   width: 70% !important;
 }
-.section-display-item-img {
+.s__display--item--img {
   height: 50vh;
   width: 100%;
   object-fit: cover;
 }
 
 /* //////////////////////////////////////////////////// */
-/* SECTION : display (text with an image) */
-.section-fullDisplay {
+/* SECTION : Full display (text with an image) */
+.s__fDisplay {
   flex-direction: column;
 }
-.section-fullDisplay-first {
+.s__fDisplay--first {
   width: 100%;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 35vh 25vh;
 }
-.section-fullDisplay-second {
+.s__fDisplay--second {
   width: 100%;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 25vh 35vh;
 }
-.section-fullDisplay-img {
+.s__fDisplay--img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.section-fullDisplay-text p {
+.s__fDisplay--text p, .s__fDisplay--text h1,.s__fDisplay--text h2,.s__fDisplay--text h3, .s__fDisplay--text h4, .s__fDisplay--text h5 {
   margin: 0.8vw 1vw;
   text-align: center;
 }
 
-.section-fullDisplay-text .title {
-  margin: 0.8vw 1vw;
-  text-align: center;
-}
-
-.section-fullDisplay-text a {
+.s__fDisplay--text a {
   margin: 0px;
   width: 85%;
 }
-.section-fullDisplay-text a p {
+.s__fDisplay--text a p {
   margin: 0px;
   width: 100%;
+}
+
+/* //////////////////////////////////////////////////// */
+/* SECTION : Social media */
+.s__socials {
+  min-height: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.s__socials--title {
+  text-align: center;
+  width: 50%;
+  padding: 2vh 0;
+}
+.s__socials--links {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 0;
+}
+.s__socials--links * {
+  max-height: 100%;
+  font-size: 1.5rem;
+  padding: 0.2vh;
+}
+.s__socials--links i {
+  max-height: 100%;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -499,26 +492,26 @@ section {
 /* //////////////////////////////////////////////////// */
 /* FOOTER : AIO */
 
-.footer-aio {
+.fAio {
   padding: 0.3vh 0.3vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.footer-aio > div {
+.fAio  div {
   padding: 2vh 0px;
 }
-.footer-aio p {
-  font-size: 0.5rem;
+.fAio p {
+  font-size: 1rem;
 }
-.footer-aio-content {
+.fAio__content {
   min-height: 100%;
 }
-.footer-aio .item-list {
+.fAio__content--list {
   padding: 0px;
 }
-.footer-aio .item-list i {
+.fAio__content--list i {
   font-size: 1rem;
   padding: 0px 2vh;
 }
