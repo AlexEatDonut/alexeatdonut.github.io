@@ -10,11 +10,11 @@ html {
 }
 .h__tall,
 .h__filler {
-  height: 20vh;
+  height: 8rem;
   transition: 0.25s;
 }
 .h__small {
-  height: 12vh !important;
+  height: 6rem !important;
 }
 
 .hAio__link--choice .header-link .header-link-choice * {
