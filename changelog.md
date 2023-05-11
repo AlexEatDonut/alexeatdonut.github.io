@@ -1,5 +1,12 @@
 # Alpha 0.0.5.0
 
+The alpha 0.0.5 Is now the "Fixing broken visuals updates coming soon" Update
+
+Fixed broken visuals of full screen display
+Temporarly removed size changing header
+
+# Alpha 0.0.5.0 : "Fixing broken visuals updates coming soon" Update
+
 Adjusted header AIO :
 
 - Made it use rem

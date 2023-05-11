@@ -3,18 +3,24 @@ html {
 }
 
 .hAio {
-  position: fixed;
+  position: fixed !important;
   z-index: 500;
   border: 0 0 2px 0 solid var(--color-purple);
   box-shadow: 0 3px 20px 2px var(--color-purple);
 }
-.h__tall,
-.h__filler {
-  height: 8rem;
+
+/* .h__tall,
+.h__tall > * {
+  max-height: 8rem;
   transition: 0.25s;
 }
-.h__small {
-  height: 6rem !important;
+.h__small,
+.h__small > * {
+  max-height: 6rem !important;
+} */
+
+.h_filler {
+  height: 8rem;
 }
 
 .hAio__link--choice .header-link .header-link-choice * {
