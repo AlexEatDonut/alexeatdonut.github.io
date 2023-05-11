@@ -10,8 +10,8 @@
 
 :root {
   /* VARIABLES*/
-/* MUST BE SECOND AT ALL TIMES */
-/* Colors */
+  /* MUST BE SECOND AT ALL TIMES */
+  /* Colors */
   --hue-black: rgb(0, 0, 0);
   --hue-white: rgb(255, 255, 255);
 
@@ -63,11 +63,8 @@
   --outline-black: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
     1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
 
-
-
-    font-family: "Varela Round", sans-serif;
-    font-size: 16px;
-  
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -146,6 +143,14 @@
   background-color: var(--color-green);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  cursor: default;
+}
 .txt-color-white {
   color: var(--text-white) !important;
 }
@@ -624,6 +629,10 @@ button {
   border-radius: 1vh;
   border: 0px;
   transition: 0.15s;
+  cursor: pointer;
+}
+button p {
+  cursor: pointer;
 }
 
 /* red buttons */
