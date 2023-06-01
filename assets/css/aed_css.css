@@ -3,7 +3,10 @@
 /* MUST BE FIRST AT ALL TIMES */
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-
+/* font-family: "Varela Round", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Silkscreen&display=swap");
+/* font-family: 'Baloo Tamma 2', cursive;
+font-family: 'Silkscreen', cursive; */
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -59,11 +62,48 @@
   --color-purple-dormant: rgb(96, 24, 192);
   --color-purple-activated: rgb(144, 72, 224);
 
+  --bg-gradient-red: linear-gradient(
+    60deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(190, 16, 16) 50%,
+    rgba(0, 0, 0, 1) 75%
+  );
+  --bg-gradient-orange: linear-gradient(
+    60deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(192, 92, 10) 50%,
+    rgba(0, 0, 0, 1) 75%
+  );
+  --bg-gradient-yellow: linear-gradient(
+    60deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(192, 192, 2) 50%,
+    rgba(0, 0, 0, 1) 75%
+  );
+  --bg-gradient-green: linear-gradient(
+    60deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(20, 176, 20) 50%,
+    rgba(0, 0, 0, 1) 75%
+  );
+  --bg-gradient-blue: linear-gradient(
+    60deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(2, 108, 192) 50%,
+    rgba(0, 0, 0, 1) 75%
+  );
+  --bg-gradient-purple: linear-gradient(
+    60deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(128, 64, 208) 50%,
+    rgba(0, 0, 0, 1) 75%
+  );
+
   /* text shadow : */
   --outline-black: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
     1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
 
-  font-family: "Varela Round", sans-serif;
+  font-family: "Baloo Tamma 2", cursive;
   font-size: 16px;
 }
 
@@ -74,13 +114,13 @@
 
 @keyframes upAndDown {
   0% {
-    padding-top: 0px;
+    padding: 0 0 2rem 0;
   }
   50% {
-    padding-top: 2vh;
+    padding: 2rem 0 0 0;
   }
   100% {
-    padding-top: 0px;
+    padding: 0 0 2rem 0;
   }
 }
 
@@ -143,6 +183,30 @@
   background-color: var(--color-green);
 }
 
+.bg-gradient-red {
+  background: rgb(0, 0, 0);
+  background: var(--bg-gradient-red);
+}
+.bg-gradient-orange {
+  background: rgb(0, 0, 0);
+  background: var(--bg-gradient-orange);
+}
+.bg-gradient-yellow {
+  background: rgb(0, 0, 0);
+  background: var(--bg-gradient-yellow);
+}
+.bg-gradient-green {
+  background: rgb(0, 0, 0);
+  background: var(--bg-gradient-green);
+}
+.bg-gradient-blue {
+  background: rgb(0, 0, 0);
+  background: var(--bg-gradient-blue);
+}
+.bg-gradient-purple {
+  background: rgb(0, 0, 0);
+  background: var(--bg-gradient-purple);
+}
 p,
 h1,
 h2,
@@ -463,9 +527,69 @@ h5 {
   overflow: hidden;
 }
 
+/* Wrapper */
+.wrapper {
+  height: 100%;
+  width: 100%;
+  color: black;
+}
+
+/* Form control */
+.s__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 1.5rem;
+}
+.s_form--input,
+.s_form--textarea {
+  font-size: 1.25rem;
+  border: 2px solid var(--hue-light2);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 300ms;
+}
+.s_form--input:focus,
+.s_form--textarea:focus {
+  border: 2px solid var(--hue-dark5);
+  outline: none;
+}
+.s_form--checkbox {
+}
+.s_form--checkbox:checked {
+  background-color: var(--hue-light4);
+}
 /* HR */
 hr {
-  margin: 2vh 0px;
+  margin: 1rem 0px;
+}
+/* HR COLORS */
+.hr-neon-red,
+.hr-neon-orange,
+.hr-neon-yellow,
+.hr-neon-blue,
+.hr-neon-green,
+.hr-neon-purple {
+  margin: 0px !important;
+}
+
+.hr-red {
+  border: 2px solid var(--color-red);
+}
+.hr-orange {
+  border: 2px solid var(--color-orange);
+}
+.hr-yellow {
+  border: 2px solid var(--color-yellow);
+}
+.hr-green {
+  border: 2px solid var(--color-green);
+}
+.hr-blue {
+  border: 2px solid var(--color-blue);
+}
+.hr-purple {
+  border: 2px solid var(--color-purple);
 }
 /* HR NEONS */
 .hr-neon-red,
@@ -502,7 +626,19 @@ hr {
   box-shadow: 0 3px 20px 2px var(--color-purple);
 }
 
-/* borders neon */
+/* borders */
+.border-red,
+.border-red-hover,
+.border-orange,
+.border-orange-hover,
+.border-yellow,
+.border-yellow-hover,
+.border-blue,
+.border-blue-hover,
+.border-green,
+.border-green-hover,
+.border-purple,
+.border-purple-hover,
 .border-neon-red,
 .border-neon-red-hover,
 .border-neon-orange,
@@ -517,15 +653,83 @@ hr {
 .border-neon-purple-hover {
   padding: 3vh;
 }
+.border-red,
+.border-red-hover {
+  border: 2px solid var(--color-red);
+}
+.border-orange,
+.border-orange-hover {
+  border: 2px solid var(--color-orange);
+}
+.border-yellow,
+.border-yellow-hover {
+  border: 2px solid var(--color-yellow);
+}
+.border-green,
+.border-green-hover {
+  border: 2px solid var(--color-green);
+}
+.border-blue,
+.border-blue-hover {
+  border: 2px solid var(--color-blue);
+}
+.border-purple,
+.border-purple-hover {
+  border: 2px solid var(--color-purple);
+}
+
+.border-red-hover:hover {
+  border: 2px solid var(--color-red-activated);
+}
+.border-orange-hover:hover {
+  border: 2px solid var(--color-orange-activated);
+}
+.border-yellow-hover:hover {
+  border: 2px solid var(--color-yellow-activated);
+}
+.border-green-hover:hover {
+  border: 2px solid var(--color-green-activated);
+}
+.border-blue-hover:hover {
+  border: 2px solid var(--color-blue-activated);
+}
+.border-purple-hover:hover {
+  border: 2px solid var(--color-purple-activated);
+}
+
+.border-red-click-hover,
+.border-orange-click-hover,
+.border-yellow-click-hover,
+.border-blue-click-hover,
+.border-green-click-hover,
+.border-purple-click-hover {
+  box-shadow: none;
+}
+
+.border-red-click-hover:hover {
+  border: 2px solid var(--color-red-activated);
+}
+.border-orange-click-hover:hover {
+  border: 2px solid var(--color-orange-activated);
+}
+.border-yellow-click-hover:hover {
+  border: 2px solid var(--color-yellow-activated);
+}
+.border-green-click-hover:hover {
+  border: 2px solid var(--color-green-activated);
+}
+.border-blue-click-hover:hover {
+  border: 2px solid var(--color-blue-activated);
+}
+.border-purple-click-hover:hover {
+  border: 2px solid var(--color-purple-activated);
+}
+
+/* NEON borders */
 .border-neon-red,
 .border-neon-red-hover {
   box-shadow: inset 0 0 3vh var(--color-red);
   border: 2px solid var(--color-red);
-}
-.border-neon-orange,
-.border-neon-orange-hover {
-  box-shadow: inset 0 0 3vh var(--color-orange);
-  border: 2px solid var(--color-orange);
 }
 .border-neon-orange,
 .border-neon-orange-hover {
@@ -553,6 +757,18 @@ hr {
   border: 2px solid var(--color-purple);
 }
 
+.border-red-hover,
+.border-red-click-hover,
+.border-orange-hover,
+.border-orange-click-hover,
+.border-yellow-hover,
+.border-yellow-click-hover,
+.border-blue-hover,
+.border-blue-click-hover,
+.border-green-hover,
+.border-green-click-hover,
+.border-purple-hover,
+.border-purple-click-hover,
 .border-neon-red-hover,
 .border-neon-red-click-hover,
 .border-neon-orange-hover,
@@ -624,7 +840,6 @@ hr {
 /* button */
 
 button {
-  width: 100%;
   margin: 0px;
   border-radius: 1vh;
   border: 0px;
@@ -760,6 +975,19 @@ button p {
 .btn-purple-border:active {
   border: 2px solid var(--color-purple-activated);
   box-shadow: inset 0 0 10vh var(--color-purple-activated);
+}
+
+/* ITEM GROW ON HOVER */
+.grow-hover {
+  transform: perspective(500px) translateZ(0px);
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 350ms;
+  padding: 1rem;
+}
+.grow-hover:hover {
+  transform: perspective(500px) translateZ(1rem);
+}
+.grow-hover:active {
+  transform: perspective(500px) translateZ(0.75rem);
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

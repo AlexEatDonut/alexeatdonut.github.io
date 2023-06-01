@@ -137,9 +137,8 @@ header {
   grid-template-columns: 25vw 1fr 15vw;
   grid-template-rows: 1fr;
 }
-.hAio__logo {
-  width: 25vw;
-  height: 100%;
+.hAio__logo--container {
+  max-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,6 +167,8 @@ header {
 .hAio__menu {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   right: -100vw;
   width: 60vw;
@@ -181,10 +182,13 @@ header {
 .h__filler {
   height: 10vh !important;
 }
-
+.hAio__menu .hAio__nav {
+  display: flex;
+  flex-direction: column;
+}
 .hAio__menu .hAio__link {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 1/1;
   padding: 1vw;
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -196,9 +200,9 @@ header {
   align-items: center;
 }
 .hAio__menu .hAio__link--choice * {
-  font-size: 2rem;
-  width: 100%;
+  font-size: 2.5rem;
   height: 100%;
+  aspect-ratio: 1/1;
   margin: 0px;
   text-align: center;
 }
@@ -243,13 +247,6 @@ section {
   /* background-image: url(./test-bg.png); */
 
   /* MAKE IT A COLOR OR GRADIENT */
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    60deg,
-    rgba(0, 0, 0, 1) 25%,
-    rgba(213, 0, 0, 1) 50%,
-    rgba(0, 0, 0, 1) 75%
-  );
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -292,7 +289,7 @@ section {
   width: 85%;
   margin: 6vh 0px;
 }
-.s__text--content--text{
+.s__text--content--text {
   margin: 2vh 0px;
 }
 
@@ -326,7 +323,6 @@ section {
   width: 30%;
   border-radius: 50vh;
 }
-
 
 /* //////////////////////////////////////////////////// */
 /* SECTION : images in a grid */
@@ -441,7 +437,12 @@ section {
   height: 100%;
   object-fit: cover;
 }
-.s__fDisplay--text p, .s__fDisplay--text h1,.s__fDisplay--text h2,.s__fDisplay--text h3, .s__fDisplay--text h4, .s__fDisplay--text h5 {
+.s__fDisplay--text p,
+.s__fDisplay--text h1,
+.s__fDisplay--text h2,
+.s__fDisplay--text h3,
+.s__fDisplay--text h4,
+.s__fDisplay--text h5 {
   margin: 0.8vw 1vw;
   text-align: center;
 }
@@ -453,6 +454,48 @@ section {
 .s__fDisplay--text a p {
   margin: 0px;
   width: 100%;
+}
+
+/* //////////////////////////////////////////////////// */
+/* SECTION : listing-grid (listed stuff) */
+
+.s__listgrid {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  justify-items: flex-start;
+  gap: 4vh;
+  flex-wrap: wrap;
+}
+.s__listgrid--item {
+  min-height: 69vw;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 92vw;
+  position: relative;
+}
+.s__listgrid--himg {
+  width: 100%;
+  height: 8rem;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+.s__listgrid-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 50%;
+  filter: contrast(95%);
+  object-fit: cover;
+  z-index: 100;
+}
+.s__listgrid--content {
+  padding: 1rem;
+  z-index: 105;
 }
 
 /* //////////////////////////////////////////////////// */
@@ -499,7 +542,7 @@ section {
   align-items: center;
   justify-content: center;
 }
-.fAio  div {
+.fAio div {
   padding: 2vh 0px;
 }
 .fAio p {

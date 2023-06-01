@@ -2,11 +2,17 @@ html {
   scroll-behavior: smooth;
 }
 
+.font__pixel {
+  font-family: "Silkscreen", cursive;
+}
+
 .hAio {
   position: fixed !important;
   z-index: 500;
   border: 0 0 2px 0 solid var(--color-purple);
   box-shadow: 0 3px 20px 2px var(--color-purple);
+  /* background-color: rgba(5, 5, 5, 0.5);
+  backdrop-filter: blur(1rem); */
 }
 
 /* .h__tall,
@@ -20,7 +26,7 @@ html {
 } */
 
 .h_filler {
-  height: 8rem;
+  height: 4rem;
 }
 
 .hAio__link--choice .header-link .header-link-choice * {
@@ -32,10 +38,6 @@ html {
   line-height: 2 !important;
 }
 
-.section-bio .bio-img {
-  height: 16vh;
-  width: 16vh;
-}
 .box-bg {
   background-color: rgb(45, 45, 45);
   width: 100vw;
@@ -81,6 +83,13 @@ html {
   object-fit: cover;
 }
 
+.s__fDisplay picture {
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
 .mentionLegalesContent {
   width: 100%;
   padding: 0px 2vw 5vh 2vw;
@@ -89,17 +98,6 @@ html {
 
 .mentionLegalesContent p {
   padding: 2vh 0px 1vh 0px;
-}
-
-.section-bg-image {
-  /* MAKE IT A COLOR OR GRADIENT */
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    60deg,
-    rgba(0, 0, 0, 1) 25%,
-    rgba(96, 24, 192, 1) 50%,
-    rgba(0, 0, 0, 1) 75%
-  ) !important;
 }
 
 @media screen and (max-width: 580px) {
