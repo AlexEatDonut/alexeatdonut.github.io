@@ -468,14 +468,18 @@ section {
   object-position: center;
   overflow: hidden;
 }
-.s__listgrid--bg {
+.s__listgrid--bg,
+.s__listgrid--bgfull {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 50%;
-  filter: contrast(95%) grayscale(15%);
+
   object-fit: cover;
   z-index: 100;
+}
+.s__listgrid--bg {
+  opacity: 50%;
+  filter: contrast(95%) grayscale(15%);
 }
 .s__listgrid--content {
   z-index: 105;
