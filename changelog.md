@@ -1,6 +1,14 @@
-# Alpha 0.0.6.0 The "New shiny" update
+# Alpha 0.0.7.0 File reformatting update
 
-TODO : ADD ANIMATIONS (L2R & R2L)
+This will sureley be the bigger breaking of the thing.
+
+- Removed mentions of my initials and added cccss prefixes
+- Renamed script.js to cccss_main_js.js
+- Renamed aed_css to cccss_main_css
+
+Futures plans to make addons have been prepared.
+
+# Alpha 0.0.6.0 The "New shiny" update
 
 This update WILL break anything from prior.
 
