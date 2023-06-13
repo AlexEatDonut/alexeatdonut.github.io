@@ -1,6 +1,6 @@
 # Current version :
 
-Alpha 0.0.7.0
+Alpha 0.0.8.0
 
 # Personal CSS framework
 
@@ -12,17 +12,11 @@ A dedicated website will be made for this once it's going to be getting some rea
 
 # CURRENT TO DOS :
 
-- Continue gridded listing
-- More header flexibility
-- Footers
-- Form controls
-- Flexible columns
-- Custom Icons
+You can look at the trello here : https://trello.com/b/MUnmBvRk/cccss-ideas
 
 # Do you REALLY wish to use it ?
 
 For now I don't know why you'd use it for realsies on any projects. If you wish to figure stuff out yourself : goodluck.
-JS missing.
 
 The links are :
 
@@ -32,6 +26,6 @@ The links are :
 
 And the js script is :
 
-      <script src="https://alexeatdonut.github.io/assets/js/cccss_main_js.js"></script>
+    <script src="https://alexeatdonut.github.io/assets/js/cccss_main_js.js"></script>
 
-<img href="./assets/img/funnylilguys.png">
+<img href="/assets/img/funnylilguys.png">

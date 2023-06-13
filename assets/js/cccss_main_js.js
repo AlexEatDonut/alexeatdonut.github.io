@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", function () {
-  let screenWidth = window.screen.width;
-
+  // code for shrinking header, kept for legacy use if people wish to use it
+  // let screenWidth = window.screen.width;
   // if (screenWidth > 512) {
   //   function scrollFunction() {
   //     if (window.scrollY > 192) {
@@ -10,11 +10,11 @@ window.addEventListener("DOMContentLoaded", function () {
   //     }
   //   }
   // }
+  // window.addEventListener("scroll", scrollFunction);
 
   let burger_menu = document.querySelectorAll("#hAio__burger");
 
-  // window.addEventListener("scroll", scrollFunction);
-
+  // left over code for clicking on gallery images, to be added
   // const s__display = document.querySelector(".s__display");
   // let box_container = document.querySelector(".box-full");
   // let box_inner = document.querySelector(".box-inner");
@@ -31,13 +31,13 @@ window.addEventListener("DOMContentLoaded", function () {
   //   console.log(index_img);
   //   index_img_nb = parseInt(index_img);
 
-  //   let map_object = map_gallery.find((item) => item.index == index_img_nb);
-  //   let map_name = map_object.mapname;
-  //   let map_desc = map_object.mapdesc;
+  //   let object_images = map_gallery.find((item) => item.index == index_img_nb);
+  //   let object_name = map_object.mapname;
+  //   let object_desc = map_object.mapdesc;
 
-  //   // console.log("ev target = "+ev.target+" et sa source est "+ev.target.src+", son index est "+index_img_nb+", son title est "+map_name+" et sa description est "+map_desc);
-  //   document.querySelector("#box-image-title").innerHTML = map_name;
-  //   document.querySelector("#box-image-description").innerHTML = map_desc;
+  //   console.log("ev target = "+ev.target+", the img src is "+ev.target.src+", its index is "+index_img_nb+", its title is "+object_name+" a its description is "+object_desc);
+  //   document.querySelector("#box-image-title").innerHTML = object_name;
+  //   document.querySelector("#box-image-description").innerHTML = object_desc;
 
   //   box_image.src = ev.target.src;
   // });

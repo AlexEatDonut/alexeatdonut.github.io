@@ -1,3 +1,21 @@
+# Alpha 0.0.8.0 Mini Frenzi update
+
+Things WILL be broken
+
+- Renamed listing grid to just listing
+- Added card formats for your listing :
+  Tarot
+  Playcards
+  Square
+- Seperated btn-x-border into 2 serperate styles : inset and outset
+- Edited how cccss looks like
+- Edited width and height :
+  h-x and w-x work on vh and vm
+  hp-x and wp-x work en pourcentages
+  added a demonstration in the cccss page
+- Edited padding (p-x) and margins (m-x) to be based on rem. Sizes may change in the future.
+- There may be miscellaneous changes i have forgotten
+
 # Alpha 0.0.7.0 File reformatting update
 
 This will sureley be the bigger breaking of the thing.
