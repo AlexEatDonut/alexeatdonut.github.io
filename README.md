@@ -1,6 +1,6 @@
 # Current version :
 
-Alpha 0.0.8.0
+Alpha 0.0.9.0
 
 # Personal CSS framework
 
@@ -27,5 +27,11 @@ The links are :
 And the js script is :
 
     <script src="https://alexeatdonut.github.io/assets/js/cccss_main_js.js"></script>
+
+# CURRENT OFFICIAL ADDONS :
+
+- Starry Sky
+
+# Have fun coding
 
 <img href="/assets/img/funnylilguys.png">

@@ -28,799 +28,770 @@
       type="text/css"
     />
     <link rel="icon" href="./assets/img/funnylilguys.png" />
+
     <title>Copy Cat Css</title>
   </head>
-  <header
-    class="h-30 bg-hue-dark1 flex-column f-just-center f-align-center txt-color-white"
-  >
-    <p class="title-l p-1">Welcome to the most chaotic "framework" ever.</p>
-    <h1 class="mb-0 title-xl">"Copy Cat Css"</h1>
-    <cite class="m-2 txt-color-grey">4% modularity, 96% copy paste</cite>
-    <br />
-  </header>
-  <div class="s__cccss" style="width: 100%; height: 80vh; overflow-y: hidden">
-    <img
-      src="./assets/img/cccss.png"
-      class="s__cccss--img"
-      style="height: 100%; width: 100%; object-fit: cover"
-    />
-  </div>
-  <div class="w-40 margins-center txt-center">
-    <h2 class="title-xl">About this css work</h2>
-    <p>
-      Before you get copy-ing whatever you like, just know that this is the
-      culmination of my efforts to making a framework that both does the job for
-      you while still allowing you to use your HTML and CSS knowledge.
-    </p>
-    <br />
 
-    <p>Just know that I made this for myself and my future personal work.</p>
-    <p>This isn't ground breaking, but it is a tool for myself.</p>
-    <br />
-    <p>
-      Do note that this has no link to copycat, the thing to turn figma projects
-      into web pages. I only chose this name because it made sense, and only
-      realized it was used after the logo.
-    </p>
-  </div>
-
-  <hr />
-  <h1 class="title-xl">//General text</h1>
-  <div class="w-100 flex-row f-align-center f-just-around f-gap-1">
-    <p>This is a p</p>
-    <p class="txt-xxs">This is a txt-xxs</p>
-    <p class="txt-xs">This is a txt-xs</p>
-    <p class="txt-s">This is a txt-s</p>
-    <p class="txt-l">This is a txt-l</p>
-    <p class="txt-xl">This is a txt-xl</p>
-    <p class="txt-xxl">This is a txt-xxl</p>
-  </div>
-  <br />
-  <cite class="p-1"
-    >txt-s, txt-xs and txt-xxs become normal size when using a phone.
-    Responsiveness is key.</cite
-  >
-  <hr />
-  <h1 class="title-xl">//Titles</h1>
-  <div class="p-1 flex-column">
-    <p>H titles do not have css linked to them.</p>
-    <p>
-      This allows you to essentially have titles of a desired size without
-      screwing up your SEO
-    </p>
-    <p>Thank me later</p>
-  </div>
-  <br />
-  <div class="w-100 flex-row f-align-center f-just-around f-gap-1">
-    <p class="title-xl">This is a title-xl</p>
-    <p class="title-l">This is a title-l</p>
-    <p class="title-m">This is a title-m</p>
-    <p class="title-s">This is a title-s</p>
-    <p class="title-xs">This is a title-xs</p>
-  </div>
-
-  <h1 class="title-xl">//Background colors</h1>
-  <h2 class="title-l">//hues</h2>
-  <div class="w-100 h-30 flex-row">
-    <div class="bg-hue-black h-10 w-20 txt-color-white">bg-hue-black</div>
-    <div class="bg-hue-dark1 h-10 w-20 txt-color-white">bg-hue-dark1</div>
-    <div class="bg-hue-dark2 h-10 w-20 txt-color-white">bg-hue-dark2</div>
-    <div class="bg-hue-dark3 h-10 w-20 txt-color-white">bg-hue-dark3</div>
-    <div class="bg-hue-dark4 h-10 w-20 txt-color-white">bg-hue-dark4</div>
-    <div class="bg-hue-dark5 h-10 w-20 txt-color-white">bg-hue-dark5</div>
-    <div class="bg-hue-dark6 h-10 w-20 txt-color-white">bg-hue-dark6</div>
-    <div class="bg-hue-dark7 h-10 w-20 txt-color-white">bg-hue-dark7</div>
-    <div class="bg-hue-medium h-10 w-20 txt-color-white">
-      bg-hue-medium (the middle one)
+  <body>
+    <header
+      class="hmn-30 bg-hue-dark1 flex-column f-just-center f-align-center txt-color-white"
+    >
+      <p class="title-l p-1">Welcome to the most chaotic "framework" ever.</p>
+      <h1 class="mb-0 title-xl">"Copy Cat Css"</h1>
+      <cite class="m-2 txt-color-grey">4% modularity, 96% copy paste</cite>
+      <br />
+    </header>
+    <div class="s__cccss" style="width: 100%; height: 80vh; overflow-y: hidden">
+      <img
+        src="./assets/img/cccss.png"
+        class="s__cccss--img wp-100 hp-100 obj-fit-cover"
+      />
     </div>
-    <div class="bg-hue-light4 h-10 w-20 txt-color-black">bg-hue-light4</div>
-    <div class="bg-hue-light3 h-10 w-20 txt-color-black">bg-hue-light3</div>
-    <div class="bg-hue-light2 h-10 w-20 txt-color-black">bg-hue-light2</div>
-    <div class="bg-hue-light1 h-10 w-20 txt-color-black">bg-hue-light1</div>
-    <div class="bg-hue-white h-10 w-20 txt-color-black">bg-hue-white</div>
-  </div>
-  <h1 class="title-xl">//Widths and heights</h1>
-  <div class="w-80 h-20 bg-hue-medium txt-center">
-    w-80 (width 80vw) with h-20 (height 20vh)
-    <div class="wp-20 hp-80 bg-hue-light2 txt-center">
-      wp-20 (width 20%) with hp-40 (height 80%)
-    </div>
-  </div>
-  <h1 class="title-xl">//Form controls [WIP]</h1>
-  <form class="s__form">
-    <label>Input type text</label>
-    <input
-      class="s_form--input wp-20"
-      type="text"
-      placeholder="input type text w/ wp-20"
-    />
-    <div>
-      <input type="checkbox" class="s_form--checkbox" />
-      <label>Input type checkbox</label>
-    </div>
-    <label>Input type textarea</label>
-    <textarea class="s_form--textarea wp-50"></textarea>
-  </form>
-
-  <hr />
-  <h1 class="title-xl">//Some cool ass shit</h1>
-  <h2 class="title-l">//Normal borders</h2>
-  hr borders are cool and stuff
-  <hr class="hr-red" />
-
-  <hr class="hr-orange" />
-
-  <hr class="hr-yellow" />
-
-  <hr class="hr-green" />
-
-  <hr class="hr-blue" />
-
-  <hr class="hr-purple" />
-
-  boxes with those borders are cool
-  <div class="w-100 flex-row f-align-center f-just-center f-gap-1">
-    <div class="border-red w-20 p-1">border-red</div>
-
-    <div class="border-red-hover w-20 p-1">border-red-hover</div>
-
-    <div class="border-orange w-20 p-1">border-orange</div>
-
-    <div class="border-orange-hover w-20 p-1">border-orange-hover</div>
-
-    <div class="border-yellow w-20 p-1">border-yellow</div>
-
-    <div class="border-yellow-hover w-20 p-1">border-yellow-hover</div>
-
-    <div class="border-green w-20 p-1">border-green</div>
-
-    <div class="border-green-hover w-20 p-1">border-green-hover</div>
-
-    <div class="border-blue w-20 p-1">border-blue</div>
-
-    <div class="border-blue-hover w-20 p-1">border-blue-hover</div>
-
-    <div class="border-purple w-20 p-1">border-purple</div>
-
-    <div class="border-purple-hover w-20 p-1">border-purple-hover</div>
-  </div>
-  <hr />
-  <h2 class="title-l">//Neon borders</h2>
-  hr borders are cool and stuff
-  <hr class="hr-neon-red" />
-  <br />
-  <hr class="hr-neon-orange" />
-  <br />
-  <hr class="hr-neon-yellow" />
-  <br />
-  <hr class="hr-neon-green" />
-  <br />
-  <hr class="hr-neon-blue" />
-  <br />
-  <hr class="hr-neon-purple" />
-  <br />
-  boxes with those borders are cooler
-  <div class="w-100 flex-row f-align-center f-just-center f-gap-1">
-    <div class="border-neon-red w-20 p-1">border-neon-red</div>
-
-    <div class="border-neon-red-hover w-20 p-1">border-neon-red-hover</div>
-
-    <div class="border-neon-orange w-20 p-1">border-neon-orange</div>
-
-    <div class="border-neon-orange-hover w-20 p-1">
-      border-neon-orange-hover
-    </div>
-
-    <div class="border-neon-yellow w-20 p-1">border-neon-yellow</div>
-
-    <div class="border-neon-yellow-hover w-20 p-1">
-      border-neon-yellow-hover
-    </div>
-    <div class="border-neon-green w-20 p-1">border-neon-green</div>
-    <div class="border-neon-green-hover w-20 p-1">border-neon-green-hover</div>
-    <div class="border-neon-blue w-20 p-1">border-neon-blue</div>
-    <div class="border-neon-blue-hover w-20 p-1">border-neon-blue-hover</div>
-    <div class="border-neon-purple w-20 p-1">border-neon-purple</div>
-    <div class="border-neon-purple-hover w-20 p-1">
-      border-neon-purple-hover
-    </div>
-  </div>
-  <hr />
-
-  buttons are cool
-  <div class="wp-100 h-10 margins-center flex-row f-align-center f-just-around">
-    <div>
-      <button class="btn-red-fill">btn-red-fill</button>
-    </div>
-    <div>
-      <button class="btn-red-border-inner">btn-red-border-inner</button>
-    </div>
-    <div>
-      <button class="btn-red-border-outer">btn-red-border-outer</button>
-    </div>
-  </div>
-  <div class="wp-100 h-10 margins-center flex-row f-align-center f-just-around">
-    <div>
-      <button class="btn-orange-fill">btn-orange-fill</button>
-    </div>
-    <div>
-      <button class="btn-orange-border-inner">btn-orange-border-inner</button>
-    </div>
-    <div>
-      <button class="btn-orange-border-outer">btn-orange-border-outer</button>
-    </div>
-  </div>
-  <div class="wp-100 h-10 margins-center flex-row f-align-center f-just-around">
-    <div>
-      <button class="btn-yellow-fill">btn-yellow-fill</button>
-    </div>
-    <div>
-      <button class="btn-yellow-border-inner">btn-yellow-border-inner</button>
-    </div>
-    <div>
-      <button class="btn-yellow-border-outer">btn-yellow-border-outer</button>
-    </div>
-  </div>
-  <div class="wp-100 h-10 margins-center flex-row f-align-center f-just-around">
-    <div>
-      <button class="btn-blue-fill">btn-blue-fill</button>
-    </div>
-    <div>
-      <button class="btn-blue-border-inner">btn-blue-border-inner</button>
-    </div>
-    <div>
-      <button class="btn-blue-border-outer">btn-blue-border-outer</button>
-    </div>
-  </div>
-  <div class="wp-100 h-10 margins-center flex-row f-align-center f-just-around">
-    <div>
-      <button class="btn-green-fill">btn-green-fill</button>
-    </div>
-    <div>
-      <button class="btn-green-border-inner">btn-green-border-inner</button>
-    </div>
-    <div>
-      <button class="btn-green-border-outer">btn-green-border-outer</button>
-    </div>
-  </div>
-  <div class="wp-100 h-10 margins-center flex-row f-align-center f-just-around">
-    <div>
-      <button class="btn-purple-fill">btn-purple-fill</button>
-    </div>
-    <div>
-      <button class="btn-purple-border-inner">btn-purple-border-inner</button>
-    </div>
-    <div>
-      <button class="btn-purple-border-outer">btn-purple-border-outer</button>
-    </div>
-  </div>
-  <div class="wp-100 h-10 margins-center flex-row f-align-center f-just-around">
-    <div class="wp-20 flex-row f-align-center f-just-center">
-      <button class="grow-hover">button with grow-hover</button>
-    </div>
-    <!-- note : grow hover elements need space around them in order to properly grow -->
-  </div>
-
-  <hr />
-
-  <!-- //////////////////////////////////////////////////// -->
-
-  <h1 class="title-xl">//Headers</h1>
-  <h2 class="title-l">//Header All In One (.hAio)</h2>
-
-  <!-- //////////////////////////////////////////////////// -->
-  <!-- HEADER AIO -->
-  <!-- //////////////////////////////////////////////////// -->
-
-  <header>
-    <div class="hAio bg-hue-dark5">
-      <div class="hAio__logo--container">
-        <img
-          src="./assets/img/test-logo.png"
-          class="hAio__logo--img"
-          alt="Website Logo"
-        />
-      </div>
-      <div class="hAio__title">
-        <p class="txt-color-white">This is the title</p>
-      </div>
-      <nav class="hAio__nav">
-        <a href="" class="hAio__nav--choice txt-xxs txt-color-hover-white"
-          >This is a choice in nav (text xxs)</a
-        >
-        <a href="" class="hAio__nav--choice txt-xxs txt-color-hover-white"
-          >This is a choice in nav</a
-        >
-        <a href="" class="hAio__nav--choice txt-xxs txt-color-hover-white"
-          >This is a choice in nav</a
-        >
-        <a href="" class="hAio__nav--choice txt-xxs txt-color-hover-white"
-          >This is a choice in nav</a
-        >
-      </nav>
-      <div class="hAio__link">
-        <a href="" target="blank" class="hAio__link--choice"
-          ><i class="bi bi-github txt-color-hover-white"></i
-        ></a>
-        <a href="" target="blank" class="hAio__link--choice"
-          ><i class="bi bi-linkedin txt-color-hover-white"></i
-        ></a>
-        <a href="" target="blank" class="hAio__link--choice"
-          ><i class="bi bi-youtube txt-color-hover-white"></i
-        ></a>
-        <a href="" target="blank" class="hAio__link--choice"
-          ><i class="bi bi-steam txt-color-hover-white"></i
-        ></a>
-      </div>
-      <div class="hAio__burger txt-color-white">
-        <i class="bi bi-list"></i>
-      </div>
-    </div>
-    <div class="hAio__menu">
-      <nav class="hAio__nav">
-        <a href="" class="hAio__nav--choice txt-xxs txt-color-white"
-          >This is a choice in nav (text xxs)</a
-        >
-        <a href="" class="hAio__nav--choice txt-xxs txt-color-white"
-          >This is a choice in nav</a
-        >
-        <a href="" class="hAio__nav--choice txt-xxs txt-color-white"
-          >This is a choice in nav</a
-        >
-        <a href="" class="hAio__nav--choice txt-xxs txt-color-white"
-          >This is a choice in nav</a
-        >
-      </nav>
-      <div class="hAio__link">
-        <a href="" target="blank" class="hAio__link--choice"
-          ><i class="bi bi-github txt-color-hover-white"></i
-        ></a>
-        <a href="" target="blank" class="hAio__link--choice"
-          ><i class="bi bi-linkedin txt-color-hover-white"></i
-        ></a>
-        <a href="" target="blank" class="hAio__link--choice"
-          ><i class="bi bi-youtube txt-color-hover-white"></i
-        ></a>
-        <a href="" target="blank" class="hAio__link--choice"
-          ><i class="bi bi-steam txt-color-hover-white"></i
-        ></a>
-      </div>
-    </div>
-  </header>
-
-  <!-- //////////////////////////////////////////////////// -->
-
-  <p class="title-xl">//Sections</p>
-  <p class="title-l">//Section with title & subtitle</p>
-
-  <!-- //////////////////////////////////////////////////// -->
-  <!-- TITLE & SUBTITLE -->
-  <!-- //////////////////////////////////////////////////// -->
-
-  <section
-    class="s__bg--image s__height--intro bg-gradient-red flex-column f-align-center f-just-center"
-  >
-    <div class="s__bg--text txt-bold flex-column f-align-center f-just-center">
-      <h1 class="s__bg--text--title title-xl">This is a title</h1>
-      <p class="s__bg--text--subtitle title-s txt-color-white">
-        ...and this is the subtitle
-      </p>
-    </div>
-    <div class="s__bg--arrow">
-      <a href="#"><i class="bi bi-arrow-down txt-color-white"></i></a>
-    </div>
-  </section>
-
-  <!-- //////////////////////////////////////////////////// -->
-
-  <p class="title-l">//Section with text, and only text</p>
-
-  <!-- //////////////////////////////////////////////////// -->
-  <!-- TEXT -->
-  <!-- //////////////////////////////////////////////////// -->
-
-  <section class="s__text bg-hue-dark1">
-    <div class="s__text--content">
-      <h2 class="title-m txt-color-white">This is made for content</h2>
-      <p class="s__text--content--text txt-color-white">
-        This really be a bruh moment Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Adipisci quos deserunt soluta esse magni iure
-        molestiae totam tempora dolor voluptatem nulla exercitationem numquam,
-        dolores delectus quis eaque pariatur laborum aliquam.
+    <div class="w-40 margins-center txt-center">
+      <h2 class="title-xl">About this css work</h2>
+      <p>
+        Before you get copy-ing whatever you like, just know that this is the
+        culmination of my efforts to making a framework that both does the job
+        for you while still allowing you to use your HTML and CSS knowledge.
       </p>
       <br />
-      <h2 class="title-m s__text--title--left txt-color-white">
-        This is an impacting title
-      </h2>
-      <p class="s__text--content--text txt-color-white">
-        Make an impact ! Be remembered ! <br />
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
-        laudantium quas tempore unde, ab necessitatibus? <br />Excepturi eum
-        recusandae non id voluptas error, reiciendis quam ab cupiditate aliquid
-        quibusdam maxime temporibus!
-      </p>
-      <h2 class="title-m s__text--title--right txt-color-white">
-        It can be on either sides
-      </h2>
-      <div class="flex-row f-just-end f-align-center h-10">
-        <hr class="hr-blue wp-60" />
-      </div>
 
-      <p class="s__text--content--text txt-color-white txt-end">
-        Choose your style ! Be bold ! <br />
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt odio
-        totam ratione tempora provident tempore. <br />Officia quisquam eum
-        perspiciatis nulla, voluptatibus deleniti earum laudantium reiciendis
-        maxime ex illum consequuntur ea!
+      <p>Just know that I made this for myself and my future personal work.</p>
+      <p>This isn't ground breaking, but it is a tool for myself.</p>
+      <br />
+      <p>
+        Do note that this has no link to copycat, the thing to turn figma
+        projects into web pages. I only chose this name because it made sense,
+        and only realized it was used after the logo.
       </p>
     </div>
-  </section>
-  <!-- //////////////////////////////////////////////////// -->
 
-  <p class="title-l">//Section biography</p>
+    <hr />
+    <h1 class="title-xl">//General text</h1>
+    <div class="w-100 flex-row f-align-center f-just-around f-gap-1">
+      <p>This is a p</p>
+      <p class="txt-xxs">This is a txt-xxs</p>
+      <p class="txt-xs">This is a txt-xs</p>
+      <p class="txt-s">This is a txt-s</p>
+      <p class="txt-l">This is a txt-l</p>
+      <p class="txt-xl">This is a txt-xl</p>
+      <p class="txt-xxl">This is a txt-xxl</p>
+    </div>
+    <br />
+    <cite class="p-1"
+      >txt-s, txt-xs and txt-xxs become normal size when using a phone.
+      Responsiveness is key.</cite
+    >
+    <hr />
+    <h1 class="title-xl">//Titles</h1>
+    <div class="p-1 flex-column">
+      <p>H titles do not have css linked to them.</p>
+      <p>
+        This allows you to essentially have titles of a desired size without
+        screwing up your SEO
+      </p>
+      <p>Thank me later</p>
+    </div>
+    <br />
+    <div class="w-100 flex-row f-align-center f-just-around f-gap-1">
+      <p class="title-xl">This is a title-xl</p>
+      <p class="title-l">This is a title-l</p>
+      <p class="title-m">This is a title-m</p>
+      <p class="title-s">This is a title-s</p>
+      <p class="title-xs">This is a title-xs</p>
+    </div>
 
-  <!-- //////////////////////////////////////////////////// -->
-  <!-- BIO -->
-  <!-- //////////////////////////////////////////////////// -->
+    <h1 class="title-xl">//Background colors</h1>
+    <h2 class="title-l">//hues</h2>
+    <div class="w-100 h-30 flex-row">
+      <div class="bg-hue-black h-10 w-20 txt-color-white">bg-hue-black</div>
+      <div class="bg-hue-dark1 h-10 w-20 txt-color-white">bg-hue-dark1</div>
+      <div class="bg-hue-dark2 h-10 w-20 txt-color-white">bg-hue-dark2</div>
+      <div class="bg-hue-dark3 h-10 w-20 txt-color-white">bg-hue-dark3</div>
+      <div class="bg-hue-dark4 h-10 w-20 txt-color-white">bg-hue-dark4</div>
+      <div class="bg-hue-dark5 h-10 w-20 txt-color-white">bg-hue-dark5</div>
+      <div class="bg-hue-dark6 h-10 w-20 txt-color-white">bg-hue-dark6</div>
+      <div class="bg-hue-dark7 h-10 w-20 txt-color-white">bg-hue-dark7</div>
+      <div class="bg-hue-medium h-10 w-20 txt-color-white">
+        bg-hue-medium (the middle one)
+      </div>
+      <div class="bg-hue-light4 h-10 w-20 txt-color-black">bg-hue-light4</div>
+      <div class="bg-hue-light3 h-10 w-20 txt-color-black">bg-hue-light3</div>
+      <div class="bg-hue-light2 h-10 w-20 txt-color-black">bg-hue-light2</div>
+      <div class="bg-hue-light1 h-10 w-20 txt-color-black">bg-hue-light1</div>
+      <div class="bg-hue-white h-10 w-20 txt-color-black">bg-hue-white</div>
+    </div>
+    <h1 class="title-xl">//Widths and heights</h1>
+    <div class="w-80 h-20 bg-hue-medium txt-center">
+      w-80 (width 80vw) with h-20 (height 20vh)
+      <div class="wp-20 hp-80 bg-hue-light2 txt-center">
+        wp-20 (width 20%) with hp-40 (height 80%)
+      </div>
+    </div>
+    <h1 class="title-xl">//Form controls [WIP]</h1>
+    <form class="s__form">
+      <label>Input type text</label>
+      <input
+        class="s_form--input wp-20"
+        type="text"
+        placeholder="input type text w/ wp-20"
+      />
+      <div>
+        <input type="checkbox" class="s_form--checkbox" />
+        <label>Input type checkbox</label>
+      </div>
+      <label>Input type textarea</label>
+      <textarea class="s_form--textarea wp-50"></textarea>
+    </form>
 
-  <section class="s__bio bg-hue-dark3 txt-color-white">
-    <div class="s__bio--main bg-hue-dark1">
-      <div class="flex-row f-align-center f-just-around m-2">
+    <hr />
+    <h1 class="title-xl">//Some cool ass shit</h1>
+    <h2 class="title-l">//Normal borders</h2>
+    hr borders are cool and stuff
+    <hr class="hr-red" />
+
+    <hr class="hr-orange" />
+
+    <hr class="hr-yellow" />
+
+    <hr class="hr-green" />
+
+    <hr class="hr-blue" />
+
+    <hr class="hr-purple" />
+
+    boxes with those borders are cool
+    <div class="w-100 flex-row f-align-center f-just-center f-gap-1">
+      <div class="border-red w-20 p-1">border-red</div>
+
+      <div class="border-red-hover w-20 p-1">border-red-hover</div>
+
+      <div class="border-orange w-20 p-1">border-orange</div>
+
+      <div class="border-orange-hover w-20 p-1">border-orange-hover</div>
+
+      <div class="border-yellow w-20 p-1">border-yellow</div>
+
+      <div class="border-yellow-hover w-20 p-1">border-yellow-hover</div>
+
+      <div class="border-green w-20 p-1">border-green</div>
+
+      <div class="border-green-hover w-20 p-1">border-green-hover</div>
+
+      <div class="border-blue w-20 p-1">border-blue</div>
+
+      <div class="border-blue-hover w-20 p-1">border-blue-hover</div>
+
+      <div class="border-purple w-20 p-1">border-purple</div>
+
+      <div class="border-purple-hover w-20 p-1">border-purple-hover</div>
+    </div>
+    <hr />
+    <h2 class="title-l">//Neon borders</h2>
+    hr borders are cool and stuff
+    <hr class="hr-neon-red" />
+    <br />
+    <hr class="hr-neon-orange" />
+    <br />
+    <hr class="hr-neon-yellow" />
+    <br />
+    <hr class="hr-neon-green" />
+    <br />
+    <hr class="hr-neon-blue" />
+    <br />
+    <hr class="hr-neon-purple" />
+    <br />
+    boxes with those borders are cooler
+    <div class="w-100 flex-row f-align-center f-just-center f-gap-1">
+      <div class="border-neon-red w-20 p-1">border-neon-red</div>
+
+      <div class="border-neon-red-hover w-20 p-1">border-neon-red-hover</div>
+
+      <div class="border-neon-orange w-20 p-1">border-neon-orange</div>
+
+      <div class="border-neon-orange-hover w-20 p-1">
+        border-neon-orange-hover
+      </div>
+
+      <div class="border-neon-yellow w-20 p-1">border-neon-yellow</div>
+
+      <div class="border-neon-yellow-hover w-20 p-1">
+        border-neon-yellow-hover
+      </div>
+      <div class="border-neon-green w-20 p-1">border-neon-green</div>
+      <div class="border-neon-green-hover w-20 p-1">
+        border-neon-green-hover
+      </div>
+      <div class="border-neon-blue w-20 p-1">border-neon-blue</div>
+      <div class="border-neon-blue-hover w-20 p-1">border-neon-blue-hover</div>
+      <div class="border-neon-purple w-20 p-1">border-neon-purple</div>
+      <div class="border-neon-purple-hover w-20 p-1">
+        border-neon-purple-hover
+      </div>
+    </div>
+    <hr />
+
+    buttons are cool
+    <div
+      class="wp-100 h-10 margins-center flex-row f-align-center f-just-around"
+    >
+      <div>
+        <button class="btn-red-fill">btn-red-fill</button>
+      </div>
+      <div>
+        <button class="btn-red-border-inner">btn-red-border-inner</button>
+      </div>
+      <div>
+        <button class="btn-red-border-outer">btn-red-border-outer</button>
+      </div>
+    </div>
+    <div
+      class="wp-100 h-10 margins-center flex-row f-align-center f-just-around"
+    >
+      <div>
+        <button class="btn-orange-fill">btn-orange-fill</button>
+      </div>
+      <div>
+        <button class="btn-orange-border-inner">btn-orange-border-inner</button>
+      </div>
+      <div>
+        <button class="btn-orange-border-outer">btn-orange-border-outer</button>
+      </div>
+    </div>
+    <div
+      class="wp-100 h-10 margins-center flex-row f-align-center f-just-around"
+    >
+      <div>
+        <button class="btn-yellow-fill">btn-yellow-fill</button>
+      </div>
+      <div>
+        <button class="btn-yellow-border-inner">btn-yellow-border-inner</button>
+      </div>
+      <div>
+        <button class="btn-yellow-border-outer">btn-yellow-border-outer</button>
+      </div>
+    </div>
+    <div
+      class="wp-100 h-10 margins-center flex-row f-align-center f-just-around"
+    >
+      <div>
+        <button class="btn-blue-fill">btn-blue-fill</button>
+      </div>
+      <div>
+        <button class="btn-blue-border-inner">btn-blue-border-inner</button>
+      </div>
+      <div>
+        <button class="btn-blue-border-outer">btn-blue-border-outer</button>
+      </div>
+    </div>
+    <div
+      class="wp-100 h-10 margins-center flex-row f-align-center f-just-around"
+    >
+      <div>
+        <button class="btn-green-fill">btn-green-fill</button>
+      </div>
+      <div>
+        <button class="btn-green-border-inner">btn-green-border-inner</button>
+      </div>
+      <div>
+        <button class="btn-green-border-outer">btn-green-border-outer</button>
+      </div>
+    </div>
+    <div
+      class="wp-100 h-10 margins-center flex-row f-align-center f-just-around"
+    >
+      <div>
+        <button class="btn-purple-fill">btn-purple-fill</button>
+      </div>
+      <div>
+        <button class="btn-purple-border-inner">btn-purple-border-inner</button>
+      </div>
+      <div>
+        <button class="btn-purple-border-outer">btn-purple-border-outer</button>
+      </div>
+    </div>
+    <div
+      class="wp-100 h-10 margins-center flex-row f-align-center f-just-around"
+    >
+      <div class="wp-20 flex-row f-align-center f-just-center">
+        <button class="grow-hover">button with grow-hover</button>
+      </div>
+      <!-- note : grow hover elements need space around them in order to properly grow -->
+    </div>
+
+    <hr />
+
+    <!-- //////////////////////////////////////////////////// -->
+
+    <h1 class="title-xl">//Headers</h1>
+    <h2 class="title-l">//Header All In One (.hAio)</h2>
+
+    <!-- //////////////////////////////////////////////////// -->
+    <!-- HEADER AIO -->
+    <!-- //////////////////////////////////////////////////// -->
+
+    <header>
+      <div class="hAio bg-hue-dark5">
+        <div class="hAio__logo--container">
+          <img
+            src="./assets/img/test-logo.png"
+            class="hAio__logo--img"
+            alt="Website Logo"
+          />
+        </div>
+        <div class="hAio__title">
+          <p class="txt-color-white">This is the title</p>
+        </div>
+        <nav class="hAio__nav">
+          <a href="" class="hAio__nav--choice txt-xxs txt-color-hover-white"
+            >This is a choice in nav (text xxs)</a
+          >
+          <a href="" class="hAio__nav--choice txt-xxs txt-color-hover-white"
+            >This is a choice in nav</a
+          >
+          <a href="" class="hAio__nav--choice txt-xxs txt-color-hover-white"
+            >This is a choice in nav</a
+          >
+          <a href="" class="hAio__nav--choice txt-xxs txt-color-hover-white"
+            >This is a choice in nav</a
+          >
+        </nav>
+        <div class="hAio__link">
+          <a href="" target="blank" class="hAio__link--choice"
+            ><i class="bi bi-github txt-color-hover-white"></i
+          ></a>
+          <a href="" target="blank" class="hAio__link--choice"
+            ><i class="bi bi-linkedin txt-color-hover-white"></i
+          ></a>
+          <a href="" target="blank" class="hAio__link--choice"
+            ><i class="bi bi-youtube txt-color-hover-white"></i
+          ></a>
+          <a href="" target="blank" class="hAio__link--choice"
+            ><i class="bi bi-steam txt-color-hover-white"></i
+          ></a>
+        </div>
+        <div class="hAio__burger txt-color-white">
+          <i class="bi bi-list"></i>
+        </div>
+      </div>
+      <div class="hAio__menu">
+        <nav class="hAio__nav">
+          <a href="" class="hAio__nav--choice txt-xxs txt-color-white"
+            >This is a choice in nav (text xxs)</a
+          >
+          <a href="" class="hAio__nav--choice txt-xxs txt-color-white"
+            >This is a choice in nav</a
+          >
+          <a href="" class="hAio__nav--choice txt-xxs txt-color-white"
+            >This is a choice in nav</a
+          >
+          <a href="" class="hAio__nav--choice txt-xxs txt-color-white"
+            >This is a choice in nav</a
+          >
+        </nav>
+        <div class="hAio__link">
+          <a href="" target="blank" class="hAio__link--choice"
+            ><i class="bi bi-github txt-color-hover-white"></i
+          ></a>
+          <a href="" target="blank" class="hAio__link--choice"
+            ><i class="bi bi-linkedin txt-color-hover-white"></i
+          ></a>
+          <a href="" target="blank" class="hAio__link--choice"
+            ><i class="bi bi-youtube txt-color-hover-white"></i
+          ></a>
+          <a href="" target="blank" class="hAio__link--choice"
+            ><i class="bi bi-steam txt-color-hover-white"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- //////////////////////////////////////////////////// -->
+
+    <p class="title-xl">//Sections</p>
+    <p class="title-l">//Section with title & subtitle</p>
+
+    <!-- //////////////////////////////////////////////////// -->
+    <!-- TITLE & SUBTITLE -->
+    <!-- //////////////////////////////////////////////////// -->
+
+    <section
+      class="s__bg--image s__height--intro bg-gradient-red flex-column f-align-center f-just-center"
+    >
+      <div
+        class="s__bg--text txt-bold flex-column f-align-center f-just-center"
+      >
+        <h1 class="s__bg--text--title title-xl">This is a title</h1>
+        <p class="s__bg--text--subtitle title-s txt-color-white">
+          ...and this is the subtitle
+        </p>
+      </div>
+      <div class="s__bg--arrow">
+        <a href="#"><i class="bi bi-arrow-down txt-color-white"></i></a>
+      </div>
+    </section>
+
+    <!-- //////////////////////////////////////////////////// -->
+
+    <p class="title-l">//Section with text, and only text</p>
+
+    <!-- //////////////////////////////////////////////////// -->
+    <!-- TEXT -->
+    <!-- //////////////////////////////////////////////////// -->
+
+    <section class="s__text bg-hue-dark3">
+      <div class="s__text--content">
+        <h2 class="title-m txt-color-white">This is made for content</h2>
+        <p class="s__text--content--text txt-color-white">
+          This really be a bruh moment Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Adipisci quos deserunt soluta esse magni iure
+          molestiae totam tempora dolor voluptatem nulla exercitationem numquam,
+          dolores delectus quis eaque pariatur laborum aliquam.
+        </p>
+        <br />
+        <h2 class="title-m s__text--title--left txt-color-white">
+          This is an impacting title
+        </h2>
+        <p class="s__text--content--text txt-color-white">
+          Make an impact ! Be remembered ! <br />
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+          laudantium quas tempore unde, ab necessitatibus? <br />Excepturi eum
+          recusandae non id voluptas error, reiciendis quam ab cupiditate
+          aliquid quibusdam maxime temporibus!
+        </p>
+        <h2 class="title-m s__text--title--right txt-color-white">
+          It can be on either sides
+        </h2>
+        <div class="flex-row f-just-end f-align-center h-10">
+          <hr class="hr-blue wp-60" />
+        </div>
+
+        <p class="s__text--content--text txt-color-white txt-end">
+          Choose your style ! Be bold ! <br />
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
+          odio totam ratione tempora provident tempore. <br />Officia quisquam
+          eum perspiciatis nulla, voluptatibus deleniti earum laudantium
+          reiciendis maxime ex illum consequuntur ea!
+        </p>
+      </div>
+    </section>
+    <!-- //////////////////////////////////////////////////// -->
+
+    <p class="title-l">//Section biography</p>
+
+    <!-- //////////////////////////////////////////////////// -->
+    <!-- BIO -->
+    <!-- //////////////////////////////////////////////////// -->
+
+    <section class="s__bio bg-hue-dark3 txt-color-white">
+      <div class="s__bio--main bg-hue-dark1">
+        <div class="flex-row f-align-center f-just-around m-2">
+          <img
+            src="./assets/img/placeholder.png"
+            class="s__bio--main--img"
+            alt="Display Img"
+          />
+          <p class="title-m s__bio--main--text">This is a bio main content</p>
+        </div>
+        <div class="flex-column f-align-start f-just-center m-2">
+          <p class="txt-m txt-color-white">
+            I am a worker at a company <br />
+            I know how to do things !
+          </p>
+          <p class="title-s txt-color-white">Here is a list of my skills</p>
+          <ul>
+            <li>• One of my skills</li>
+            <li>• I can do that</li>
+            <li>• Even this too</li>
+          </ul>
+        </div>
+      </div>
+      <div class="s__bio--side bg-hue-dark1">
+        <div>
+          <p class="title-s txt-color-white">Contacts</p>
+          <hr />
+          <a href="mailto: " class="txt-color-hover-white s__bio--side--email"
+            ><p>email@domain.com</p></a
+          >
+        </div>
+        <hr />
+        <div class="s__bio--side--dl">
+          <p class="title-xs txt-color-white">CV</p>
+          <a href=""
+            ><button class="btn-red-fill txt-l txt-normal txt-color-white">
+              Get my CV
+            </button></a
+          >
+        </div>
+        <hr />
+      </div>
+    </section>
+
+    <!-- //////////////////////////////////////////////////// -->
+
+    <p class="title-l">//Section with a gallery</p>
+
+    <!-- //////////////////////////////////////////////////// -->
+    <!-- SECTION GALLERY -->
+    <!-- //////////////////////////////////////////////////// -->
+
+    <section class="s__gallery bg-hue-dark1">
+      <a href="" class="s__gallery--item">
+        <img
+          src="./assets/img/test-image1.png"
+          class="s__gallery--item--image"
+          alt="Gallery Image"
+          loading="lazy"
+        />
+        <div class="s__gallery--item--text gallery-text1 txt-color-white">
+          <p class="outline-black">Some info here</p>
+          <p class="txt-xs outline-black">I like info</p>
+        </div>
+      </a>
+      <a href="" class="s__gallery--item">
+        <img
+          src="./assets/img/test-image2.png"
+          class="s__gallery--item--image"
+          alt="Gallery Image"
+          loading="lazy"
+        />
+        <div class="s__gallery--item--text gallery-text1 txt-color-white">
+          <p class="outline-black">Some info here</p>
+          <p class="txt-xs outline-black">I like info</p>
+        </div>
+      </a>
+      <a href="" class="s__gallery--item">
+        <img
+          src="./assets/img/test-image3.png"
+          class="s__gallery--item--image"
+          alt="Gallery Image"
+          loading="lazy"
+        />
+        <div class="s__gallery--item--text gallery-text1 txt-color-white">
+          <p class="outline-black">Some info here</p>
+          <p class="txt-xs outline-black">I like info</p>
+        </div>
+      </a>
+      <a href="" class="s__gallery--item">
+        <img
+          src="./assets/img/test-image4.png"
+          class="s__gallery--item--image"
+          alt="Gallery Image"
+          loading="lazy"
+        />
+        <div class="s__gallery--item--text gallery-text1 txt-color-white">
+          <p class="outline-black">Some info here</p>
+          <p class="txt-xs outline-black">I like info</p>
+        </div>
+      </a>
+    </section>
+
+    <!-- //////////////////////////////////////////////////// -->
+
+    <p class="title-l">//3 text with titles (desc)</p>
+
+    <!-- //////////////////////////////////////////////////// -->
+    <!-- DESCRIPTIONS -->
+    <!-- //////////////////////////////////////////////////// -->
+
+    <section class="s__desc bg-hue-dark1 txt-color-white">
+      <div class="s__desc--content">
+        <div class="s__desc--content--description">
+          <h3 class="title-m">Text desc1</h3>
+          <p class="txt-m">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            tempore magnam voluptatem expedita cupiditate perferendis
+            consequuntur obcaecati ducimus incidunt id eius fugit voluptates,
+            ipsam earum non pariatur repellendus odit odio.
+          </p>
+        </div>
+        <div class="s__desc--content--description">
+          <h3 class="title-m">Text desc2</h3>
+          <p class="txt-m">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            fuga excepturi nulla nesciunt aperiam quos aliquid omnis rem
+            facilis, perferendis atque! Ratione at, magnam culpa accusantium
+            praesentium maiores amet illo.
+          </p>
+        </div>
+        <div class="s__desc--content--description">
+          <h3 class="title-m">Text desc3</h3>
+          <p class="txt-m">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            explicabo, eveniet deleniti voluptatibus id eaque sapiente,
+            similique nobis vel officia est dolore natus quas velit dolor sit
+            commodi dicta necessitatibus!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- //////////////////////////////////////////////////// -->
+
+    <p class="title-l">//Section with text with an image (displays)</p>
+
+    <!-- //////////////////////////////////////////////////// -->
+    <!-- DISPLAYS -->
+    <!-- //////////////////////////////////////////////////// -->
+
+    <section class="s__display bg-hue-dark5">
+      <!-- IMAGE FIRST -->
+      <div class="s__display--itemFirst bradius-s bg-hue-dark3">
         <img
           src="./assets/img/placeholder.png"
-          class="s__bio--main--img"
+          class="s__display--item--img bradius-s"
           alt="Display Img"
         />
-        <p class="title-m s__bio--main--text">This is a bio main content</p>
-      </div>
-      <div class="flex-column f-align-start f-just-center m-2">
-        <p class="txt-m txt-color-white">
-          I am a worker at a company <br />
-          I know how to do things !
-        </p>
-        <p class="title-s txt-color-white">Here is a list of my skills</p>
-        <ul>
-          <li>• One of my skills</li>
-          <li>• I can do that</li>
-          <li>• Even this too</li>
-        </ul>
-      </div>
-    </div>
-    <div class="s__bio--side bg-hue-dark1">
-      <div>
-        <p class="title-s txt-color-white">Contacts</p>
-        <hr />
-        <a href="mailto: " class="txt-color-hover-white s__bio--side--email"
-          ><p>email@domain.com</p></a
-        >
-      </div>
-      <hr />
-      <div class="s__bio--side--dl">
-        <p class="title-xs txt-color-white">CV</p>
-        <a href=""
-          ><button class="btn-red-fill txt-l txt-normal txt-color-white">
-            Get my CV
-          </button></a
-        >
-      </div>
-      <hr />
-    </div>
-  </section>
-
-  <!-- //////////////////////////////////////////////////// -->
-
-  <p class="title-l">//Section with a gallery</p>
-
-  <!-- //////////////////////////////////////////////////// -->
-  <!-- SECTION GALLERY -->
-  <!-- //////////////////////////////////////////////////// -->
-
-  <section class="s__gallery bg-hue-dark1">
-    <a href="" class="s__gallery--item">
-      <img
-        src="./assets/img/test-image1.png"
-        class="s__gallery--item--image"
-        alt="Gallery Image"
-        loading="lazy"
-      />
-      <div class="s__gallery--item--text gallery-text1 txt-color-white">
-        <p class="outline-black">Some info here</p>
-        <p class="txt-xs outline-black">I like info</p>
-      </div>
-    </a>
-    <a href="" class="s__gallery--item">
-      <img
-        src="./assets/img/test-image2.png"
-        class="s__gallery--item--image"
-        alt="Gallery Image"
-        loading="lazy"
-      />
-      <div class="s__gallery--item--text gallery-text1 txt-color-white">
-        <p class="outline-black">Some info here</p>
-        <p class="txt-xs outline-black">I like info</p>
-      </div>
-    </a>
-    <a href="" class="s__gallery--item">
-      <img
-        src="./assets/img/test-image3.png"
-        class="s__gallery--item--image"
-        alt="Gallery Image"
-        loading="lazy"
-      />
-      <div class="s__gallery--item--text gallery-text1 txt-color-white">
-        <p class="outline-black">Some info here</p>
-        <p class="txt-xs outline-black">I like info</p>
-      </div>
-    </a>
-    <a href="" class="s__gallery--item">
-      <img
-        src="./assets/img/test-image4.png"
-        class="s__gallery--item--image"
-        alt="Gallery Image"
-        loading="lazy"
-      />
-      <div class="s__gallery--item--text gallery-text1 txt-color-white">
-        <p class="outline-black">Some info here</p>
-        <p class="txt-xs outline-black">I like info</p>
-      </div>
-    </a>
-  </section>
-
-  <!-- //////////////////////////////////////////////////// -->
-
-  <p class="title-l">//3 text with titles (desc)</p>
-
-  <!-- //////////////////////////////////////////////////// -->
-  <!-- DESCRIPTIONS -->
-  <!-- //////////////////////////////////////////////////// -->
-
-  <section class="s__desc bg-hue-dark1 txt-color-white">
-    <div class="s__desc--content">
-      <div class="s__desc--content--description">
-        <h3 class="title-m">Text desc1</h3>
-        <p class="txt-m">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-          tempore magnam voluptatem expedita cupiditate perferendis consequuntur
-          obcaecati ducimus incidunt id eius fugit voluptates, ipsam earum non
-          pariatur repellendus odit odio.
-        </p>
-      </div>
-      <div class="s__desc--content--description">
-        <h3 class="title-m">Text desc2</h3>
-        <p class="txt-m">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-          fuga excepturi nulla nesciunt aperiam quos aliquid omnis rem facilis,
-          perferendis atque! Ratione at, magnam culpa accusantium praesentium
-          maiores amet illo.
-        </p>
-      </div>
-      <div class="s__desc--content--description">
-        <h3 class="title-m">Text desc3</h3>
-        <p class="txt-m">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-          explicabo, eveniet deleniti voluptatibus id eaque sapiente, similique
-          nobis vel officia est dolore natus quas velit dolor sit commodi dicta
-          necessitatibus!
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- //////////////////////////////////////////////////// -->
-
-  <p class="title-l">//Section with text with an image (displays)</p>
-
-  <!-- //////////////////////////////////////////////////// -->
-  <!-- DISPLAYS -->
-  <!-- //////////////////////////////////////////////////// -->
-
-  <section class="s__display bg-hue-dark5">
-    <!-- IMAGE FIRST -->
-    <div class="s__display--itemFirst bradius-s bg-hue-dark3">
-      <img
-        src="./assets/img/placeholder.png"
-        class="s__display--item--img bradius-s"
-        alt="Display Img"
-      />
-      <div class="s__display--item--text flex-column f-just-center">
-        <p class="txt-color-white">I want to show you something</p>
-        <p class="txt-color-white">
-          LOOK ! And you can have many Ps in here too !
-        </p>
-      </div>
-    </div>
-
-    <!-- IMAGE SECOND -->
-    <div class="s__display--itemSecond bradius-s bg-hue-dark3">
-      <div class="s__display--item--text flex-column f-just-center">
-        <p class="txt-color-white">I want to show you something</p>
-        <p class="txt-color-white">
-          LOOK ! And you can have many Ps in here too !
-        </p>
-      </div>
-      <img
-        src="./assets/img/test-image1.png"
-        class="s__display--item--img bradius-s"
-        alt="Display Image"
-      />
-    </div>
-  </section>
-
-  <!-- //////////////////////////////////////////////////// -->
-
-  <p class="title-l">
-    //Section with text and and image, but this time full screen
-    (fullscreen-displays)
-  </p>
-
-  <!-- //////////////////////////////////////////////////// -->
-  <!-- FULLSCREEN DISPLAYS -->
-  <!-- //////////////////////////////////////////////////// -->
-
-  <section class="s__height--xs s__fDisplay">
-    <!-- IMAGE FIRST -->
-
-    <div class="s__fDisplay--first bg-hue-dark4">
-      <img
-        src="./assets/img/test-image1.png"
-        class="s__fDisplay--img"
-        alt="Fullscreen Display Image"
-      />
-      <div class="s__fDisplay--text flex-column f-just-center f-align-center">
-        <h3 class="title-m txt-color-white title">
-          Here is a "full-screen display"
-        </h3>
-        <p class="txt-color-white">It can be quite appealing to do</p>
-        <p class="txt-color-white">And you can add plenty of content to it</p>
-        <p class="txt-color-white">So much content</p>
-        <a href="" class="wp-70 text flex-column f-just-center f-align-center"
-          ><button
-            class="wp-70 grow-hover btn-red-border bg-hue-dark3 txt-color-white"
-          >
-            <p>And maybe you can make it with links</p>
-          </button></a
-        >
-      </div>
-    </div>
-
-    <!-- IMAGE SECOND -->
-
-    <div class="s__fDisplay--second bg-hue-dark4">
-      <div class="s__fDisplay--text flex-column f-just-center f-align-center">
-        <h3 class="title-m txt-color-white title">
-          Here is a "full-screen display"
-        </h3>
-        <p class="txt-color-white">It can be quite appealing to do</p>
-        <a href="" class="wp-70 text flex-column f-just-center f-align-center"
-          ><button
-            class="wp-70 grow-hover btn-red-border bg-hue-dark3 txt-color-white"
-          >
-            <p>And maybe you can make it with links</p>
-          </button></a
-        >
-      </div>
-      <img
-        src="./assets/img/test-image2.png"
-        class="s__fDisplay--img"
-        alt="Fullscreen Display Image"
-      />
-    </div>
-  </section>
-
-  <p class="title-l" id="grid">//Gridded listing</p>
-
-  <!-- //////////////////////////////////////////////////// -->
-  <!-- Gridded listing -->
-  <!-- //////////////////////////////////////////////////// -->
-
-  <section class="bg-hue-light2">
-    <ul class="s__listing">
-      <!-- Img as a header -->
-      <li class="s__listing--item card-playcard bradius-l bg-hue-light1">
-        <img class="s__listing--himg" src="./assets/img/test-image1.png" />
-        <div class="s__listing--content">
-          <p
-            class="s__listing--content--title title-s txt-center txt-color-black"
-          >
-            This is a card with himg
-          </p>
-          <hr />
-          <p>
-            Woo look at me i am content Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Doloremque, perferendis sapiente assumenda dolores
-            minus aliquid?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nobis
-            beatae totam amet ex vero quaerat ullam! Vitae repellendus minus
-            atque illum nostrum, aliquid ab.
+        <div class="s__display--item--text flex-column f-just-center">
+          <p class="txt-color-white">I want to show you something</p>
+          <p class="txt-color-white">
+            LOOK ! And you can have many Ps in here too !
           </p>
         </div>
-      </li>
-      <!-- img as a bg -->
-      <li class="s__listing--item card-playcard bradius-l bg-hue-light1">
-        <img class="s__listing--bg" src="./assets/img/test-image2.png" />
-        <div class="s__listing--content">
-          <p class="s__listing--content--title title-s txt-center">
-            This is a play card with a img bg
-          </p>
-          <hr />
-          <p>
-            Woo look at me i am content Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Doloremque, perferendis sapiente assumenda dolores
-            minus aliquid?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nobis
-            beatae totam amet ex vero quaerat ullam! Vitae repellendus minus
-            atque illum nostrum, aliquid ab. Provident molestias fugit unde
-            placeat?
+      </div>
+
+      <!-- IMAGE SECOND -->
+      <div class="s__display--itemSecond bradius-s bg-hue-dark3">
+        <div class="s__display--item--text flex-column f-just-center">
+          <p class="txt-color-white">I want to show you something</p>
+          <p class="txt-color-white">
+            LOOK ! And you can have many Ps in here too !
           </p>
         </div>
-      </li>
-      <!-- img as a bg -->
-      <li class="s__listing--item card-playcard bradius-l bg-hue-light1">
-        <img class="s__listing--bgfull" src="./assets/img/test-image2.png" />
-        <div class="s__listing--content txt-color-white">
-          <p class="s__listing--content--title title-s txt-center">
-            This is a card with a fully opaque img bg
-          </p>
-          <hr />
-          <p>
-            Woo look at me i am content Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Doloremque, perferendis sapiente assumenda dolores
-            minus aliquid?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nobis
-            beatae totam amet ex vero quaerat ullam! Vitae repellendus minus
-            atque illum nostrum, aliquid ab. Provident molestias fugit unde
-            placeat?
-          </p>
-        </div>
-      </li>
-      <!-- img as a card illustration -->
-      <li class="s__listing--item card-playcard bg-hue-light1 bradius-l">
         <img
-          class="s__listing--cimg bradius-s"
-          src="./assets/img/test-image3.png"
+          src="./assets/img/test-image1.png"
+          class="s__display--item--img bradius-s"
+          alt="Display Image"
         />
-        <div class="s__listing--content">
-          <p class="s__listing--content--title title-s">
-            This is a card with a cimg
-          </p>
-          <hr />
-          <p>Look at my stats !</p>
-          <p>Am I a good card to play ?</p>
-          <hr />
-          <p class="txt-s">
-            You could fit some lore in there too ! Vosmet vetat res coelicas.
-            Iam premet lethum vostum te vae gnari sunt suimet quis in oculis
-          </p>
+      </div>
+    </section>
+
+    <!-- //////////////////////////////////////////////////// -->
+
+    <p class="title-l">
+      //Section with text and and image, but this time full screen
+      (fullscreen-displays)
+    </p>
+
+    <!-- //////////////////////////////////////////////////// -->
+    <!-- FULLSCREEN DISPLAYS -->
+    <!-- //////////////////////////////////////////////////// -->
+
+    <section class="s__height--xs s__fDisplay">
+      <ul class="wp-100 bg-hue-dark4">
+        <!-- <li class="s__fDisplay--first">
+        <picture class="s__fDisplay--img">
+          <img
+            src="./assets/img/placeholder.png"
+            class="s__fDisplay--img--screen"
+          />
+        </picture>
+        <div class="s__fDisplay--content">
+          <h2 class="title-m">A title for your content</h2>
+          <p>This is a text content.</p>
+          <a><button>a button</button></a>
         </div>
-      </li>
-      <!-- card with 2 faces
-      <li class="s__listing--item card-tarot bg-hue-light1">
-        (WIP) card with 2 faces (face 1)
-      </li>
-      <li class="s__listing--item card-tarot bg-hue-light1">
-        (WIP) card with 2 faces (face 2)
       </li> -->
-      <!-- filler card  -->
-      <li class="s__listing--item card-tarot grow-hover bg-hue-light1">
-        <a class="wrapper" href="./index.html">
+        <!-- IMAGE FIRST -->
+
+        <li class="s__fDisplay--first">
+          <picture class="s__fDisplay--img">
+            <img
+              src="./assets/img/test-image1.png"
+              class="s__fDisplay--img--screen"
+            />
+          </picture>
+          <div class="s__fDisplay--content">
+            <h2 class="title-m txt-color-white">
+              Here is a "full-screen display"
+            </h2>
+            <p class="txt-color-white">It can be quite appealing to do</p>
+            <p class="txt-color-white">
+              And you can add plenty of content to it
+            </p>
+            <p class="txt-color-white">So much content</p>
+            <a
+              href=""
+              class="wp-70 text flex-column f-just-center f-align-center"
+              ><button
+                class="wp-70 grow-hover btn-red-border bg-hue-dark3 txt-color-white"
+              >
+                <p>And maybe you can make it with links</p>
+              </button></a
+            >
+          </div>
+        </li>
+
+        <!-- IMAGE SECOND -->
+
+        <li class="s__fDisplay--second bg-hue-dark4">
+          <picture class="s__fDisplay--img">
+            <img
+              src="./assets/img/test-image2.png"
+              class="s__fDisplay--img--square"
+            />
+          </picture>
+          <div class="s__fDisplay--content">
+            <h2 class="title-m txt-color-white">
+              Here is a "full-screen display"
+            </h2>
+            <p class="txt-color-white">It can be quite appealing to do</p>
+            <a
+              href=""
+              class="wp-70 text flex-column f-just-center f-align-center"
+              ><button
+                class="wp-70 grow-hover btn-red-border bg-hue-dark3 txt-color-white"
+              >
+                <p>And maybe you can make it with links</p>
+              </button></a
+            >
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <p class="title-l" id="grid">//Gridded listing</p>
+
+    <!-- //////////////////////////////////////////////////// -->
+    <!-- Gridded listing -->
+    <!-- //////////////////////////////////////////////////// -->
+
+    <section class="bg-hue-light2">
+      <ul class="s__listing">
+        <!-- Img as a header -->
+        <li class="s__listing--item card-playcard bradius-l bg-hue-light1">
+          <img class="s__listing--himg" src="./assets/img/test-image1.png" />
           <div class="s__listing--content">
             <p
               class="s__listing--content--title title-s txt-center txt-color-black"
             >
-              This is a tarot card that has a link
+              This is a card with himg
             </p>
             <hr />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque, perferendis sapiente assumenda dolores minus aliquid?
-              A, excepturi voluptates ut nemo hic cumque, fugiat pariatur
-              dolores consectetur, recusandae vero magnam incidunt?
+              Woo look at me i am content Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Doloremque, perferendis sapiente assumenda
+              dolores minus aliquid?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              nobis beatae totam amet ex vero quaerat ullam! Vitae repellendus
+              minus atque illum nostrum, aliquid ab.
+            </p>
+          </div>
+        </li>
+        <!-- img as a bg -->
+        <li class="s__listing--item card-playcard bradius-l bg-hue-light1">
+          <img class="s__listing--bg" src="./assets/img/test-image2.png" />
+          <div class="s__listing--content">
+            <p class="s__listing--content--title title-s txt-center">
+              This is a play card with a img bg
+            </p>
+            <hr />
+            <p>
+              Woo look at me i am content Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Doloremque, perferendis sapiente assumenda
+              dolores minus aliquid?
             </p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
@@ -829,63 +800,136 @@
               unde placeat?
             </p>
           </div>
-        </a>
+        </li>
+        <!-- img as a bg -->
+        <li class="s__listing--item card-playcard bradius-l bg-hue-light1">
+          <img class="s__listing--bgfull" src="./assets/img/test-image2.png" />
+          <div class="s__listing--content txt-color-white">
+            <p class="s__listing--content--title title-s txt-center">
+              This is a card with a fully opaque img bg
+            </p>
+            <hr />
+            <p>
+              Woo look at me i am content Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Doloremque, perferendis sapiente assumenda
+              dolores minus aliquid?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              nobis beatae totam amet ex vero quaerat ullam! Vitae repellendus
+              minus atque illum nostrum, aliquid ab. Provident molestias fugit
+              unde placeat?
+            </p>
+          </div>
+        </li>
+        <!-- img as a card illustration -->
+        <li class="s__listing--item card-playcard bg-hue-light1 bradius-l">
+          <img
+            class="s__listing--cimg bradius-s"
+            src="./assets/img/test-image3.png"
+          />
+          <div class="s__listing--content">
+            <p class="s__listing--content--title title-s">
+              This is a card with a cimg
+            </p>
+            <hr />
+            <p>Look at my stats !</p>
+            <p>Am I a good card to play ?</p>
+            <hr />
+            <p class="txt-s">
+              You could fit some lore in there too ! Vosmet vetat res coelicas.
+              Iam premet lethum vostum te vae gnari sunt suimet quis in oculis
+            </p>
+          </div>
+        </li>
+        <!-- card with 2 faces
+      <li class="s__listing--item card-tarot bg-hue-light1">
+        (WIP) card with 2 faces (face 1)
       </li>
-    </ul>
-  </section>
+      <li class="s__listing--item card-tarot bg-hue-light1">
+        (WIP) card with 2 faces (face 2)
+      </li> -->
+        <!-- filler card  -->
+        <li class="s__listing--item card-tarot grow-hover bg-hue-light1">
+          <a class="wrapper" href="./index.html">
+            <div class="s__listing--content">
+              <p
+                class="s__listing--content--title title-s txt-center txt-color-black"
+              >
+                This is a tarot card that has a link
+              </p>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque, perferendis sapiente assumenda dolores minus
+                aliquid? A, excepturi voluptates ut nemo hic cumque, fugiat
+                pariatur dolores consectetur, recusandae vero magnam incidunt?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                nobis beatae totam amet ex vero quaerat ullam! Vitae repellendus
+                minus atque illum nostrum, aliquid ab. Provident molestias fugit
+                unde placeat?
+              </p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
 
-  <p class="title-l">//Section with social media links</p>
+    <p class="title-l">//Section with social media links</p>
 
-  <!-- //////////////////////////////////////////////////// -->
-  <!-- SOCIAL MEDIA LINKS -->
-  <!-- //////////////////////////////////////////////////// -->
+    <!-- //////////////////////////////////////////////////// -->
+    <!-- SOCIAL MEDIA LINKS -->
+    <!-- //////////////////////////////////////////////////// -->
 
-  <section class="s__socials bg-hue-dark3">
-    <h2 class="s__socials--title txt-color-white">Social Media links</h2>
-    <div class="s__socials--links">
-      <a href="" target="blank" class="s__socials--links--choice grow-hover"
-        ><i class="bi bi-github txt-color-hover-white"></i
-      ></a>
-      <a href="" target="blank" class="s__socials--links--choice grow-hover"
-        ><i class="bi bi-linkedin txt-color-hover-white"></i
-      ></a>
-      <a href="" target="blank" class="s__socials--links--choice grow-hover"
-        ><i class="bi bi-youtube txt-color-hover-white"></i
-      ></a>
-      <a href="" target="blank" class="s__socials--links--choice grow-hover"
-        ><i class="bi bi-steam txt-color-hover-white"></i
-      ></a>
-    </div>
-  </section>
-
-  <!-- //////////////////////////////////////////////////// -->
-
-  <p class="title-xl">//Footers</p>
-  <p class="title-l">//Footer email</p>
-
-  <!-- //////////////////////////////////////////////////// -->
-  <!--FOOTER EMAIL -->
-  <!-- //////////////////////////////////////////////////// -->
-  <footer class="fAio bg-hue-dark2">
-    <a href="mailto: " class="txt-color-hover-white email-link fAio__content"
-      ><p>email@domain.com</p></a
-    >
-    <a class="fAio__content txt-color-hover-white"><p>Legal stuff</p></a>
-    <nav class="txt-color-white">
-      <ul class="fAio__content_item--list">
-        <a href="" target="blank" class=""
+    <section class="s__socials bg-hue-dark3">
+      <h2 class="s__socials--title txt-color-white">Social Media links</h2>
+      <div class="s__socials--links">
+        <a href="" target="blank" class="s__socials--links--choice grow-hover"
           ><i class="bi bi-github txt-color-hover-white"></i
         ></a>
-        <a href="" target="blank" class=""
+        <a href="" target="blank" class="s__socials--links--choice grow-hover"
           ><i class="bi bi-linkedin txt-color-hover-white"></i
         ></a>
-        <a href="" target="blank" class=""
+        <a href="" target="blank" class="s__socials--links--choice grow-hover"
           ><i class="bi bi-youtube txt-color-hover-white"></i
         ></a>
-        <a href="" target="blank" class=""
+        <a href="" target="blank" class="s__socials--links--choice grow-hover"
           ><i class="bi bi-steam txt-color-hover-white"></i
         ></a>
-      </ul>
-    </nav>
-  </footer>
+      </div>
+    </section>
+
+    <!-- //////////////////////////////////////////////////// -->
+
+    <p class="title-xl">//Footers</p>
+    <p class="title-l">//Footer email</p>
+
+    <!-- //////////////////////////////////////////////////// -->
+    <!--FOOTER EMAIL -->
+    <!-- //////////////////////////////////////////////////// -->
+    <footer class="fAio bg-hue-dark2">
+      <a href="mailto: " class="txt-color-hover-white email-link fAio__content"
+        ><p>email@domain.com</p></a
+      >
+      <a class="fAio__content txt-color-hover-white"><p>Legal stuff</p></a>
+      <nav class="txt-color-white">
+        <ul class="fAio__content_item--list">
+          <a href="" target="blank" class=""
+            ><i class="bi bi-github txt-color-hover-white"></i
+          ></a>
+          <a href="" target="blank" class=""
+            ><i class="bi bi-linkedin txt-color-hover-white"></i
+          ></a>
+          <a href="" target="blank" class=""
+            ><i class="bi bi-youtube txt-color-hover-white"></i
+          ></a>
+          <a href="" target="blank" class=""
+            ><i class="bi bi-steam txt-color-hover-white"></i
+          ></a>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>

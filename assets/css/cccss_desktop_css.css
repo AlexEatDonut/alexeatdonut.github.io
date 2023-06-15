@@ -405,42 +405,41 @@ section {
 .s__fDisplay--second {
   height: calc(20vh + 15rem);
   width: 100%;
-  display: grid;
-  grid-template-rows: 1fr;
+  display: flex;
 }
 .s__fDisplay--first {
-  grid-template-columns: 45% 1fr;
+  flex-direction: row;
 }
 .s__fDisplay--second {
-  grid-template-columns: 1fr 45%;
+  flex-direction: row-reverse;
 }
 .s__fDisplay--img {
   height: 100%;
-  width: 100%;
-  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+.s__fDisplay--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.s__fDisplay--img--rect,
+.s__fDisplay--img--square,
+.s__fDisplay--img--screen {
   object-fit: cover;
-}
-.s__fDisplay--text p,
-.s__fDisplay--text h1,
-.s__fDisplay--text h2,
-.s__fDisplay--text h3,
-.s__fDisplay--text h4,
-.s__fDisplay--text h5 {
-  margin: 0.8rem 1rem;
-  text-align: center;
-}
-.s__fDisplay--text a {
-  margin: 0px;
-}
-.s__fDisplay--text a p {
-  margin: 0px;
-  width: 100%;
-}
-.s__fDisplay picture {
+  object-position: center;
   height: 100%;
-  width: 100%;
+}
+.s__fDisplay--img--rect {
+  aspect-ratio: 7/5;
+}
+.s__fDisplay--img--square {
+  aspect-ratio: 1/1;
+}
+.s__fDisplay--img--screen {
   aspect-ratio: 16/9;
-  object-fit: cover;
 }
 
 /* //////////////////////////////////////////////////// */

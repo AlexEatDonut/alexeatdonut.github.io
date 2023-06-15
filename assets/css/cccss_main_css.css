@@ -1,6 +1,7 @@
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Imports*/
 @import url(./cccss_fonts_css.css);
+@import url(./reset.css);
 
 :root {
   /* VARIABLES*/
@@ -52,6 +53,8 @@
   --color-purple: rgb(128, 64, 208);
   --color-purple-dormant: rgb(96, 24, 192);
   --color-purple-activated: rgb(144, 72, 224);
+
+  --transparent: rgba(0, 0, 0, 0);
 
   --bg-gradient-red: linear-gradient(
     60deg,
@@ -172,6 +175,9 @@
 }
 .bg-color-green {
   background-color: var(--color-green);
+}
+.transparent {
+  background-color: var(--transparent);
 }
 
 .bg-gradient-red {
@@ -522,34 +528,34 @@ h5 {
 }
 
 .hp-10 {
-  min-height: 10% !important;
+  height: 10% !important;
 }
 .hp-20 {
-  min-height: 20% !important;
+  height: 20% !important;
 }
 .hp-30 {
-  min-height: 30% !important;
+  height: 30% !important;
 }
 .hp-40 {
-  min-height: 40% !important;
+  height: 40% !important;
 }
 .hp-50 {
-  min-height: 50% !important;
+  height: 50% !important;
 }
 .hp-60 {
-  min-height: 60% !important;
+  height: 60% !important;
 }
 .hp-70 {
-  min-height: 70% !important;
+  height: 70% !important;
 }
 .hp-80 {
-  min-height: 80% !important;
+  height: 80% !important;
 }
 .hp-90 {
-  min-height: 90% !important;
+  height: 90% !important;
 }
 .hp-100 {
-  min-height: 100% !important;
+  height: 100% !important;
 }
 
 /* MARGINS */
@@ -641,6 +647,17 @@ h5 {
   height: 100%;
   width: 100%;
   color: black;
+}
+
+/* Images */
+.obj-fit-cover {
+  object-fit: cover !important;
+}
+.obj-fit-fill {
+  object-fit: fill !important;
+}
+.obj-fit-contain {
+  object-fit: contain !important;
 }
 
 /* Form control */
@@ -736,7 +753,7 @@ hr {
 }
 
 /* borders */
-.border-red,
+/* .border-red,
 .border-red-hover,
 .border-orange,
 .border-orange-hover,
@@ -760,7 +777,7 @@ hr {
 .border-neon-green-hover,
 .border-neon-purple,
 .border-neon-purple-hover {
-}
+} */
 .border-red,
 .border-red-hover {
   border: 2px solid var(--color-red);

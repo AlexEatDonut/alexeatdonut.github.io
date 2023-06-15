@@ -1,4 +1,19 @@
-# Alpha 0.0.8.0 Mini Frenzi update
+# Alpha 0.0.9.0 "Better, adaptable, and codable" update
+
+Things will be very broken due to this update.
+
+- Added reset.css so that it is incorporated in the css.
+- Changed section text to be less generic :
+  now includes a new big text option,
+  still heavily customizable (example shown in cccss.html).
+- Changed how fDisplays has been coded :
+  made to be less confusing to edit.
+  now uses flex and it's power to go in reverse.
+  added sizes for your images : square, rect and screen.
+- Created the first official addon : <a href="https://codepen.io/sarazond/pen/LYGbwj">this fabulous code pen<a/> has been integrated as an addon thanks to some retro-engineering.
+- There may or may not be other changes I have forgotten about.
+
+# Alpha 0.0.8.0 "Mini Frenzi" update
 
 Things WILL be broken
 
@@ -16,7 +31,7 @@ Things WILL be broken
 - Edited padding (p-x) and margins (m-x) to be based on rem. Sizes may change in the future.
 - There may be miscellaneous changes i have forgotten
 
-# Alpha 0.0.7.0 File reformatting update
+# Alpha 0.0.7.0 "File reformatting" update
 
 This will sureley be the bigger breaking of the thing.
 
@@ -26,7 +41,7 @@ This will sureley be the bigger breaking of the thing.
 
 Futures plans to make addons have been prepared.
 
-# Alpha 0.0.6.0 The "New shiny" update
+# Alpha 0.0.6.0 "New shiny" update
 
 This update WILL break anything from prior.
 
