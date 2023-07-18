@@ -11,8 +11,8 @@
 The html is to be added somewhere in you code, preferably right after placing your < body >
 The sky is fixed position, z-index -1.
 
-    <div class="sky-bg sky-yellow">
-      <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
+    <div class="starrysky_sky-bg starrysky_sky-yellow">
+      <div id="starrysky_stars1"></div>
+      <div id="starrysky_stars2"></div>
+      <div id="starrysky_stars3"></div>
     </div>
