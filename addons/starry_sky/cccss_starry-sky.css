@@ -1,4 +1,4 @@
-.sky-bg {
+.starrysky_sky-bg {
   position: fixed;
   height: 100vh;
   width: 100vw;
@@ -8,27 +8,27 @@
   z-index: -1;
 }
 
-.sky-red {
+.starrysky_sky-red {
   background: radial-gradient(ellipse at bottom, #351b1b 0%, #0f0909 100%);
 }
-.sky-orange {
+.starrysky_sky-orange {
   background: radial-gradient(ellipse at bottom, #35291b 0%, #0f0d09 100%);
 }
-.sky-yellow {
+.starrysky_sky-yellow {
   background: radial-gradient(ellipse at bottom, #35331b 0%, #0f0f09 100%);
 }
-.sky-green {
+.starrysky_sky-green {
   background: radial-gradient(ellipse at bottom, #1f351b 0%, #0a0f09 100%);
 }
 
-.sky-blue {
+.starrysky_sky-blue {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
-.sky-purple {
+.starrysky_sky-purple {
   background: radial-gradient(ellipse at bottom, #351b35 0%, #0f090f 100%);
 }
 
-#stars {
+#starrysky_stars1 {
   width: 1px;
   height: 1px;
   background: transparent;
@@ -209,9 +209,9 @@
     1135px 1824px #fff, 1693px 1371px #fff, 1346px 1155px #fff,
     624px 1946px #fff, 1155px 1372px #fff, 215px 955px #fff, 332px 1120px #fff,
     93px 1016px #fff, 982px 922px #fff;
-  animation: animStar 50s linear infinite;
+  animation: starrysky_animStar 50s linear infinite;
 }
-#stars:after {
+#starrysky_stars1:after {
   content: " ";
   position: absolute;
   top: 2000px;
@@ -397,7 +397,7 @@
     93px 1016px #fff, 982px 922px #fff;
 }
 
-#stars2 {
+#starrysky_stars2 {
   width: 2px;
   height: 2px;
   background: transparent;
@@ -452,9 +452,9 @@
     1477px 374px #fff, 1997px 426px #fff, 1747px 674px #fff, 1100px 957px #fff,
     1874px 317px #fff, 1317px 1655px #fff, 883px 1340px #fff, 687px 564px #fff,
     1505px 858px #fff, 1104px 1230px #fff, 1325px 48px #fff;
-  animation: animStar 100s linear infinite;
+  animation: starrysky_animStar 100s linear infinite;
 }
-#stars2:after {
+#starrysky_stars2:after {
   content: " ";
   position: absolute;
   top: 2000px;
@@ -514,7 +514,7 @@
     1505px 858px #fff, 1104px 1230px #fff, 1325px 48px #fff;
 }
 
-#stars3 {
+#starrysky_stars3 {
   width: 3px;
   height: 3px;
   background: transparent;
@@ -544,9 +544,9 @@
     304px 528px #fff, 700px 1289px #fff, 698px 1083px #fff, 1674px 443px #fff,
     1304px 737px #fff, 478px 1562px #fff, 1306px 1330px #fff, 1110px 1158px #fff,
     1669px 1407px #fff;
-  animation: animStar 150s linear infinite;
+  animation: starrysky_animStar 150s linear infinite;
 }
-#stars3:after {
+#starrysky_stars3:after {
   content: " ";
   position: absolute;
   top: 2000px;
@@ -581,11 +581,11 @@
     1669px 1407px #fff;
 }
 
-@keyframes animStar {
+@keyframes starrysky_animStar {
   from {
     transform: translateY(0px);
   }
   to {
-    transform: translateY(-2000px);
+    transform: translateY(-2048px);
   }
 }
