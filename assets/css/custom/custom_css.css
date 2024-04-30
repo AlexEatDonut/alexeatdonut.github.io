@@ -8,6 +8,17 @@ html {
   font-family: "Silkscreen", cursive;
 }
 
+body {
+  background: rgb(5, 0, 8);
+  background: linear-gradient(
+    212deg,
+    rgba(5, 0, 8, 1) 0%,
+    rgba(10, 0, 16, 1) 100%
+  );
+  background-size: 200%;
+  background-position: top;
+}
+
 .hAio {
   position: fixed !important;
   z-index: 500;
@@ -95,10 +106,73 @@ html {
   padding: 2vh 0px 1vh 0px;
 }
 
+.glassmorphic,
+.glassmorphic-low {
+  background-color: rgba(128, 128, 128, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+.glassmorphic {
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
+}
+.glassmorphic-low {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.3);
+}
+
+.custom_listing {
+  aspect-ratio: 3/1;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  width: 28%;
+}
+.custom_listing--img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  height: 100%;
+}
+
+.s__prelisting {
+  display: flex;
+  flex-direction: column;
+}
+.s__prelisting > div {
+  margin-top: 4rem;
+  height: 10vh;
+  color: white;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s__prelisting > div > h2 {
+  font-size: 2rem;
+}
+
+.s__listing {
+  padding: 4rem 0 4rem 0;
+  color: white;
+}
+
+.custom_listing--txt--title {
+  width: 100%;
+  text-align: center;
+  font-size: 1.25rem;
+}
+.custom_listing--txt--desc {
+  width: 100%;
+  padding: 1vw;
+}
+.custom_listing--txt--desc a {
+  color: white;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 580px) {
   .section-bio .bio-img {
     height: 20vw;
-    width: 20vw;
+    width: 20%;
   }
 
   /* Burger menu on mobile */
