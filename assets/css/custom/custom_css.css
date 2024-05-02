@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Silkscreen&display=swap");
 
+:root {
+  scrollbar-color: var(--color-purple) var(--hue-dark3);
+  scrollbar-width: 1rem;
+  /* font-family: 'Days One', sans-serif; */
+  font-family: "Outfit", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -125,7 +132,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
-  width: 28%;
+  width: 31%;
 }
 .custom_listing--img {
   aspect-ratio: 1/1;
@@ -151,7 +158,7 @@ body {
 }
 
 .s__listing {
-  padding: 4rem 0 4rem 0;
+  padding: 4rem 2rem 4rem 2rem;
   color: white;
 }
 
@@ -162,7 +169,7 @@ body {
   margin-top: 0.25rem;
 }
 .custom_listing--txt--desc {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   width: 100%;
   padding: 0.9vw;
 }
