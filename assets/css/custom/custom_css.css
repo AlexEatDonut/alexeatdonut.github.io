@@ -2,7 +2,7 @@
 
 :root {
   scrollbar-color: var(--color-purple) var(--hue-dark3);
-  scrollbar-width: 1rem;
+  scrollbar-width: 1vw;
   /* font-family: 'Days One', sans-serif; */
   font-family: "Outfit", sans-serif;
 }
@@ -26,27 +26,57 @@ body {
   background-position: top;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+.txt-m {
+  font-size: 1.2vw;
+}
+.txt-s {
+  font-size: 1.1vw;
+}
+.txt-xs {
+  font-size: 1vw;
+}
+.txt-xxs {
+  font-size: 0.9vw;
+}
+.txt-l {
+  font-size: 1.4vw;
+}
+.txt-xl {
+  font-size: 1.5vw;
+}
+.txt-xxl {
+  font-size: 1.6vw;
+}
+
 .hAio {
   position: fixed !important;
   z-index: 500;
   border: 0 0 2px 0 solid var(--color-purple);
   box-shadow: 0 3px 20px 2px var(--color-purple);
   /* background-color: rgba(5, 5, 5, 0.5);
-  backdrop-filter: blur(1rem); */
+  backdrop-filter: blur(1vw); */
 }
 
 /* .h__tall,
 .h__tall > * {
-  max-height: 8rem;
+  max-height: 8vw;
   transition: 0.25s;
 }
 .h__small,
 .h__small > * {
-  max-height: 6rem !important;
+  max-height: 6vw !important;
 } */
 
 .h_filler {
-  height: 4rem;
+  height: 4vw;
 }
 
 .hAio__link--choice .header-link .header-link-choice * {
@@ -54,7 +84,7 @@ body {
 }
 
 .header-small .hAio__link--choice * {
-  font-size: 0.8rem !important;
+  font-size: 0.8vw !important;
   line-height: 2 !important;
 }
 
@@ -132,7 +162,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
-  width: 31%;
+  width: 31vw;
 }
 .custom_listing--img {
   aspect-ratio: 1/1;
@@ -145,31 +175,31 @@ body {
   flex-direction: column;
 }
 .s__prelisting > div {
-  margin-top: 4rem;
+  margin-top: 4vw;
   height: 10vh;
   color: white;
-  border-radius: 0.5rem;
+  border-radius: 0.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .s__prelisting > div > h2 {
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 .s__listing {
-  padding: 4rem 2rem 4rem 2rem;
+  padding: 4vw 2vw 4vw 2vw;
   color: white;
 }
 
 .custom_listing--txt--title {
   width: 100%;
   text-align: center;
-  font-size: 1.2rem;
-  margin-top: 0.25rem;
+  font-size: 1.2vw;
+  margin-top: 0.25vw;
 }
 .custom_listing--txt--desc {
-  font-size: 1.05rem;
+  font-size: 1.05vw;
   width: 100%;
   padding: 0.9vw;
 }
